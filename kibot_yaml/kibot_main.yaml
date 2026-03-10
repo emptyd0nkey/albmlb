@@ -557,18 +557,18 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Project Name
-  BOARD_NAME: Board Name
+  PROJECT_NAME: ALB/MLB test
+  BOARD_NAME: alb_mlb test
 
-  COMPANY: Company Name
-  DESIGNER: Author
+  COMPANY: General Atomics EMS
+  DESIGNER: Marcus Reighter
 
   LOGO: 'Logos/dummy_logo.png'
-  GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
+  GIT_URL: 'https://github.com/emptyd0nkey/albmlb'
 
   # Preflight ==================================================================
 
-  CHECK_ZONE_FILLS: false
+  CHECK_ZONE_FILLS: true
   STACKUP_TABLE_NOTE: external layer thicknesses are specified after plating
 
   # BoM ========================================================================
