@@ -4703,7 +4703,7 @@
 		(uuid "6ac37859-12b3-49e5-b2a8-fdbfcad399ae")
 	)
 	(label "Stow"
-		(at 107.95 48.26 0)
+		(at 109.22 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
