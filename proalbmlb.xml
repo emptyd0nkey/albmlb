@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/proalbmlb.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 9.0.7+1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">alb_mlb test</textvar>
+    <textvar name="COMPANY">General Atomics EMS</textvar>
+    <textvar name="DESIGNER">Marcus Reighter</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">b58eedc</textvar>
+    <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
+    <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
+    <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
+    <textvar name="RELEASE_BODY_1.0.0"/>
+    <textvar name="RELEASE_BODY_1.0.1"/>
+    <textvar name="RELEASE_BODY_1.0.2"/>
+    <textvar name="RELEASE_BODY_1.1.0"/>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">11-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-11</textvar>
+    <textvar name="RELEASE_TITLE_1.0.0"/>
+    <textvar name="RELEASE_TITLE_1.0.1"/>
+    <textvar name="RELEASE_TITLE_1.0.2"/>
+    <textvar name="RELEASE_TITLE_1.1.0"/>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="SHEET_NAME_1">Cover Page</textvar>
+    <textvar name="SHEET_NAME_10">MotorB</textvar>
+    <textvar name="SHEET_NAME_11">ALB-MLB Toggle</textvar>
+    <textvar name="SHEET_NAME_12">RotoPD</textvar>
+    <textvar name="SHEET_NAME_13">......................................</textvar>
+    <textvar name="SHEET_NAME_14">......................................</textvar>
+    <textvar name="SHEET_NAME_15">......................................</textvar>
+    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_17">......................................</textvar>
+    <textvar name="SHEET_NAME_18">......................................</textvar>
+    <textvar name="SHEET_NAME_19">......................................</textvar>
+    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_20">......................................</textvar>
+    <textvar name="SHEET_NAME_21">......................................</textvar>
+    <textvar name="SHEET_NAME_22">......................................</textvar>
+    <textvar name="SHEET_NAME_23">......................................</textvar>
+    <textvar name="SHEET_NAME_24">......................................</textvar>
+    <textvar name="SHEET_NAME_25">......................................</textvar>
+    <textvar name="SHEET_NAME_26">......................................</textvar>
+    <textvar name="SHEET_NAME_27">......................................</textvar>
+    <textvar name="SHEET_NAME_28">......................................</textvar>
+    <textvar name="SHEET_NAME_29">......................................</textvar>
+    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_30">......................................</textvar>
+    <textvar name="SHEET_NAME_31">......................................</textvar>
+    <textvar name="SHEET_NAME_32">......................................</textvar>
+    <textvar name="SHEET_NAME_33">......................................</textvar>
+    <textvar name="SHEET_NAME_34">......................................</textvar>
+    <textvar name="SHEET_NAME_35">......................................</textvar>
+    <textvar name="SHEET_NAME_36">......................................</textvar>
+    <textvar name="SHEET_NAME_37">......................................</textvar>
+    <textvar name="SHEET_NAME_38">......................................</textvar>
+    <textvar name="SHEET_NAME_39">......................................</textvar>
+    <textvar name="SHEET_NAME_4">Connectors</textvar>
+    <textvar name="SHEET_NAME_40">......................................</textvar>
+    <textvar name="SHEET_NAME_5">Trigger</textvar>
+    <textvar name="SHEET_NAME_6">Motor Polarity Switch</textvar>
+    <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
+    <textvar name="SHEET_NAME_8">Motor A</textvar>
+    <textvar name="SHEET_NAME_9">Revision History</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>proalbmlb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
+      <title_block>
+        <title>Block Diagram</title>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Block Diagram.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
+      <title_block>
+        <title>Project Architecture</title>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Project Architecture.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>connectors.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>trigger.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>motorPolarity.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
+      <title_block>
+        <title>Power - Sequencing</title>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Power - Sequencing.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>motorA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>Revision History</title>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MotorB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Project Architecture/ALB-MLB Toggle/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8d9f21e8-8432-4400-a476-7598f31fd9d6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>toggle.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Project Architecture/RotoPD/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pd.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>DE9_Pins_MountingHoles</value>
+      <datasheet>~</datasheet>
+      <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
+      </fields>
+      <libsource lib="Connector" part="DE9_Pins_MountingHoles" description="9-pin D-SUB connector, pins (male), Mounting Hole"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="DSUB DB9"/>
+      <property name="ki_fp_filters" value="DSUB*Pins*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>390dcadf-9398-4464-9213-8d2a2c3247d2</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x08_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>f1ab6a8e-014f-405d-b19d-06cff7ca3853</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HPF-02-01-X-S</value>
+      <footprint>HPF-02-01-X-S:SAMTEC_HPF-02-01-X-S</footprint>
+      <fields>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.89 mm</field>
+        <field name="MANUFACTURER">Samtec</field>
+        <field name="Footprint">HPF-02-01-X-S:SAMTEC_HPF-02-01-X-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="lib" part="HPF-02-01-X-S" description=""/>
+      <property name="PARTREV" value="A"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.89 mm"/>
+      <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>afceeaae-5d93-49f3-8ff8-9b1ccaa1d8d6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x04_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>64aebb61-d22f-40ec-bc21-2330bc775ee3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x04_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>a1b17503-7536-4c14-acf5-6bedd35b174b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x04_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>c30ccdcb-2d1e-45e9-adfc-8849f1dea763</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>7690a138-3dff-47dd-9d63-3374381786e2</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x02_Pin</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>1fd29326-82bd-4ed2-841b-b9f8262469f2</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x02_Pin</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>af4c231d-091d-4aaa-a4ff-18ceeff86d03</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x08_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <libsource lib="" part="Conn_01x08_Socket_1" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>d0e850d1-0c03-4ac4-8acb-9f0a06f3391d</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x08_Socket</value>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <libsource lib="" part="Conn_01x08_Socket_1" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Sheetname" value="Connectors"/>
+      <property name="Sheetfile" value="connectors.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
+      <tstamps>89c48933-3a60-4e16-a818-b08f09fc5fc8</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>28d34f2d-7f1a-41c4-8be0-504f9efd1c39</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>89c989c7-d7bd-4be9-91dd-4f3cc6bd4dd2</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>e2b48a81-ab6d-4285-a97f-025869927859</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>48877348-3261-4bf3-ac3a-247712712cdc</tstamps>
+    </comp>
+    <comp ref="NT1">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>a36ec3cc-4357-4b11-a3d8-0cc121266295</tstamps>
+    </comp>
+    <comp ref="NT2">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>67f72049-20f3-4e1d-bbd5-b189a0bcbc24</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>PTMUX6236RUMR</value>
+      <footprint>WQFN16_RUM_TEX</footprint>
+      <datasheet>PTMUX6236RUMR</datasheet>
+      <fields>
+        <field name="Footprint">WQFN16_RUM_TEX</field>
+        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="ki_keywords" value="PTMUX6236RUMR"/>
+      <property name="ki_fp_filters" value="WQFN16_RUM_TEX WQFN16_RUM_TEX-M WQFN16_RUM_TEX-L"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>6a574998-16a6-4e18-b216-f54329af9e0e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>e3a3be8a-0320-4462-80e7-048e30121108</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>1630fbec-5cc6-4755-92c6-82cde6160a30</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>ed8e3123-fb54-43e4-b892-5674f6fba9b2</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>e98567c3-bf84-4b10-b884-27a97101783c</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>29b66cc7-3517-4f0e-b095-64035d540d72</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>PINA745AIRELR</value>
+      <footprint>REL0014A_PINA745AIRELR_TEX</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/ina745a</datasheet>
+      <fields>
+        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="pina745a" part="PINA745AIRELR" description=""/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="PINA745AIRELR"/>
+      <property name="ki_fp_filters" value="REL0014A_PINA745AIRELR_TEX"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>11e856d4-d940-4874-8470-117e49bbfcc9</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>PTMUX6236RUMR</value>
+      <footprint>WQFN16_RUM_TEX</footprint>
+      <datasheet>PTMUX6236RUMR</datasheet>
+      <fields>
+        <field name="Footprint">WQFN16_RUM_TEX</field>
+        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Sheetname" value="Motor A"/>
+      <property name="Sheetfile" value="motorA.kicad_sch"/>
+      <property name="ki_keywords" value="PTMUX6236RUMR"/>
+      <property name="ki_fp_filters" value="WQFN16_RUM_TEX WQFN16_RUM_TEX-M WQFN16_RUM_TEX-L"/>
+      <sheetpath names="/Project Architecture/Motor A/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f7888403-ed28-43d8-b5e5-143ef539d790/"/>
+      <tstamps>335cb999-b937-4dcd-9d0a-d53119bcee1a</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>C</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>40fb2e9c-7de3-4466-aa5b-ac02177d6b74</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>58a62bcc-38a4-4e8f-bcb7-3f342c84d5ce</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>749ded95-b67a-4df9-ab2a-a7b09a8dde5b</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>923b31c0-501d-4995-8349-7cf17ecbd972</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>94b212c6-4b73-4133-b9f9-039461e0aeae</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>84cd414f-305b-448a-8db3-f8b6abc03bca</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>ff703a84-960f-4c89-bb12-6d2e39e1d556</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>0ccc6bd2-48bf-4e47-bf22-9317635d56a2</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>10μF</value>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>54bc7d6e-7cb8-4ea2-a5be-46cd2d6e1139</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>PINA745AIRELR</value>
+      <footprint>REL0014A_PINA745AIRELR_TEX</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/ina745a</datasheet>
+      <fields>
+        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="pina745a" part="PINA745AIRELR" description=""/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="PINA745AIRELR"/>
+      <property name="ki_fp_filters" value="REL0014A_PINA745AIRELR_TEX"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>aa38d9fb-7a5a-466f-9a6d-ec1b1edfb9ad</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>PTMUX6236RUMR</value>
+      <footprint>WQFN16_RUM_TEX</footprint>
+      <datasheet>PTMUX6236RUMR</datasheet>
+      <fields>
+        <field name="Footprint">WQFN16_RUM_TEX</field>
+        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="PTMUX6236RUMR"/>
+      <property name="ki_fp_filters" value="WQFN16_RUM_TEX WQFN16_RUM_TEX-M WQFN16_RUM_TEX-L"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>c1d847b5-feab-49c8-b71d-79b305b07b83</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TMUX7219MDGKR</value>
+      <footprint>SOIC8_DGK_TEX</footprint>
+      <datasheet>TMUX7219MDGKR</datasheet>
+      <fields>
+        <field name="Footprint">SOIC8_DGK_TEX</field>
+        <field name="Datasheet">TMUX7219MDGKR</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="tmux7219" part="TMUX7219MDGKR" description=""/>
+      <property name="Sheetname" value="MotorB"/>
+      <property name="Sheetfile" value="MotorB.kicad_sch"/>
+      <property name="ki_keywords" value="TMUX7219MDGKR"/>
+      <property name="ki_fp_filters" value="SOIC8_DGK_TEX SOIC8_DGK_TEX-M SOIC8_DGK_TEX-L"/>
+      <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
+      <tstamps>35b74239-adff-4298-afcc-3296b5a3188d</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPST</value>
+      <datasheet>~</datasheet>
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Double Pole Single Throw (DPST) Switch</field>
+      </fields>
+      <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
+      <property name="Sheetname" value="ALB-MLB Toggle"/>
+      <property name="Sheetfile" value="toggle.kicad_sch"/>
+      <property name="ki_keywords" value="switch dual double-pole single-throw OFF-ON"/>
+      <sheetpath names="/Project Architecture/ALB-MLB Toggle/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8d9f21e8-8432-4400-a476-7598f31fd9d6/"/>
+      <tstamps>75c03e1d-1e6d-45cc-a65f-5c4db85880cf</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RotoPD" part="rotopd" description=""/>
+      <property name="Sheetname" value="RotoPD"/>
+      <property name="Sheetfile" value="pd.kicad_sch"/>
+      <sheetpath names="/Project Architecture/RotoPD/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb/"/>
+      <tstamps>ad38aebc-ceb7-48c1-be9a-3fc2832cb177</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Conn_01x08_Socket_1">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Socket">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Socket">
+      <description>Generic connector, single row, 01x08, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Conn_01x08_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x08, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="USB_N" type="passive"/>
+        <pin num="2" name="USB_P" type="passive"/>
+        <pin num="3" name="PD_INT_3V" type="passive"/>
+        <pin num="4" name="SDA_3V3" type="passive"/>
+        <pin num="5" name="SCL_3V3" type="passive"/>
+        <pin num="6" name="+3V3" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="+5V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DE9_Pins_MountingHoles">
+      <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>DSUB*Pins*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DE9_Pins_MountingHoles</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="NetTie_2">
+      <description>Net tie, 2 pins</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Net*Tie*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">NT</field>
+        <field name="Value">NetTie_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RotoPD" part="rotopd">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value"/>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="USP_N" type="output"/>
+        <pin num="2" name="USB_P" type="output"/>
+        <pin num="3" name="PD_INT_3V" type="output"/>
+        <pin num="4" name="SDA_3V3" type="output"/>
+        <pin num="5" name="SCL_3V3" type="output"/>
+        <pin num="6" name="+3.3V" type="output"/>
+        <pin num="7" name="GND" type="output"/>
+        <pin num="8" name="+5V" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Double Pole Single Throw (DPST) Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="lib" part="HPF-02-01-X-S">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HPF-02-01-X-S</field>
+        <field name="Footprint">HPF-02-01-X-S:SAMTEC_HPF-02-01-X-S</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.89 mm</field>
+        <field name="MANUFACTURER">Samtec</field>
+      </fields>
+      <pins>
+        <pin num="1_1" name="01" type="passive"/>
+        <pin num="2_1" name="02" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pina745a" part="PINA745AIRELR">
+      <docs>https://www.ti.com/lit/gpn/ina745a</docs>
+      <footprints>
+        <fp>REL0014A_PINA745AIRELR_TEX</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">PINA745AIRELR</field>
+        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="SH+" type="passive"/>
+        <pin num="2" name="IN+" type="passive"/>
+        <pin num="3" name="A1" type="passive"/>
+        <pin num="4" name="A0" type="passive"/>
+        <pin num="5" name="SDA" type="passive"/>
+        <pin num="6" name="SDC" type="passive"/>
+        <pin num="7" name="IS-" type="unspecified"/>
+        <pin num="8" name="SH-" type="unspecified"/>
+        <pin num="9" name="IN-" type="unspecified"/>
+        <pin num="10" name="ALERT" type="unspecified"/>
+        <pin num="11" name="VS" type="unspecified"/>
+        <pin num="12" name="GND" type="unspecified"/>
+        <pin num="13" name="VBUS" type="unspecified"/>
+        <pin num="14" name="IS+" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="ptmux6236" part="PTMUX6236RUMR">
+      <docs>PTMUX6236RUMR</docs>
+      <footprints>
+        <fp>WQFN16_RUM_TEX</fp>
+        <fp>WQFN16_RUM_TEX-M</fp>
+        <fp>WQFN16_RUM_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PTMUX6236RUMR</field>
+        <field name="Footprint">WQFN16_RUM_TEX</field>
+        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D1" type="bidirectional"/>
+        <pin num="2" name="S1B" type="bidirectional"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="SEL2" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="S2A" type="bidirectional"/>
+        <pin num="9" name="D2" type="bidirectional"/>
+        <pin num="10" name="S2B" type="bidirectional"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="EN" type="input"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="NC" type="no_connect"/>
+        <pin num="15" name="SEL1" type="input"/>
+        <pin num="16" name="S1A" type="bidirectional"/>
+        <pin num="17" name="EPAD" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="tmux7219" part="TMUX7219MDGKR">
+      <docs>TMUX7219MDGKR</docs>
+      <footprints>
+        <fp>SOIC8_DGK_TEX</fp>
+        <fp>SOIC8_DGK_TEX-M</fp>
+        <fp>SOIC8_DGK_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TMUX7219MDGKR</field>
+        <field name="Footprint">SOIC8_DGK_TEX</field>
+        <field name="Datasheet">TMUX7219MDGKR</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="bidirectional"/>
+        <pin num="2" name="S1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="SEL" type="input"/>
+        <pin num="7" name="VSS" type="power_out"/>
+        <pin num="8" name="S2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="RotoPD">
+      <uri>/github/workspace/lib/RotoPD-main/RotoPD.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="pina745a">
+      <uri>/github/workspace/lib/ul_PINA745AIRELR/KiCADv6/2026-01-07_16-37-35.kicad_sym</uri>
+    </library>
+    <library logical="ptmux6236">
+      <uri>/github/workspace/lib/ul_PTMUX6236RUMR/KiCADv6/2026-01-05_19-52-49.kicad_sym</uri>
+    </library>
+    <library logical="tmux7219">
+      <uri>/github/workspace/lib/ul_TMUX7219MDGKR/KiCADv6/2026-01-05_20-58-12.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="+3V3" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="+3.3V" pintype="output"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="+5V" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="+5V" pintype="output"/>
+      <node ref="U7" pin="11" pinfunction="VS" pintype="unspecified"/>
+      <node ref="U9" pin="11" pinfunction="VS" pintype="unspecified"/>
+    </net>
+    <net code="3" name="+VDC" class="Default">
+      <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="-VDC" class="Default">
+      <node ref="NT2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Project Architecture/ALB-MLB Toggle/+M" class="Default">
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Project Architecture/ALB-MLB Toggle/-M" class="Default">
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="7" name="/Project Architecture/ALB-MLB Toggle/&lt;NO NET&gt;" class="Default">
+      <node ref="U12" pin="10" pinfunction="S2B" pintype="bidirectional"/>
+      <node ref="U12" pin="16" pinfunction="S1A" pintype="bidirectional"/>
+      <node ref="U12" pin="2" pinfunction="S1B" pintype="bidirectional"/>
+      <node ref="U12" pin="8" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Project Architecture/Connectors/+M" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="9" name="/Project Architecture/Connectors/-M" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="10" name="/Project Architecture/Connectors/J1_1" class="Default">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="S1B" pintype="bidirectional"/>
+      <node ref="U8" pin="2" pinfunction="S1B" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Project Architecture/Connectors/J1_2" class="Default">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U10" pin="16" pinfunction="S1A" pintype="bidirectional"/>
+      <node ref="U8" pin="16" pinfunction="S1A" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Project Architecture/Connectors/J1_3" class="Default">
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U10" pin="10" pinfunction="S2B" pintype="bidirectional"/>
+      <node ref="U8" pin="8" pinfunction="S2A" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Project Architecture/Connectors/J1_4" class="Default">
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U11" pin="2" pinfunction="S1" pintype="bidirectional"/>
+      <node ref="U8" pin="10" pinfunction="S2B" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Project Architecture/Connectors/J1_5" class="Default">
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="U11" pin="8" pinfunction="S2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Project Architecture/Connectors/J1_6" class="Default">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="16" name="/Project Architecture/Connectors/J1_7" class="Default">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="17" name="/Project Architecture/Connectors/J1_8" class="Default">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="18" name="/Project Architecture/Connectors/J1_9" class="Default">
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="20" name="/Project Architecture/Connectors/SDA" class="Default">
+      <node ref="J2" pin="4" pinfunction="SDA_3V3" pintype="passive"/>
+      <node ref="U7" pin="5" pinfunction="SDA" pintype="passive"/>
+      <node ref="U9" pin="5" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="21" name="/Project Architecture/Connectors/SDC" class="Default">
+      <node ref="J2" pin="5" pinfunction="SCL_3V3" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="SDC" pintype="passive"/>
+      <node ref="U9" pin="6" pinfunction="SDC" pintype="passive"/>
+    </net>
+    <net code="22" name="/Project Architecture/Connectors/SFF" class="Default">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="23" name="/Project Architecture/Connectors/Stow" class="Default">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="27" name="/Project Architecture/Motor A/+M" class="Default">
+      <node ref="U7" pin="13" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U7" pin="14" pinfunction="IS+" pintype="unspecified"/>
+      <node ref="U7" pin="7" pinfunction="IS-" pintype="unspecified"/>
+      <node ref="U8" pin="1" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/Project Architecture/Motor A/-M" class="Default">
+      <node ref="U8" pin="9" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/Project Architecture/Motor A/Stow" class="Default">
+      <node ref="U8" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="SEL2" pintype="input"/>
+    </net>
+    <net code="31" name="/Project Architecture/Motor Polarity Switch/+M" class="Default">
+      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U12" pin="1" pinfunction="D1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/Project Architecture/Motor Polarity Switch/-M" class="Default">
+      <node ref="NT2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U12" pin="9" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/Project Architecture/Motor Polarity Switch/Stow" class="Default">
+      <node ref="U12" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U12" pin="6" pinfunction="SEL2" pintype="input"/>
+    </net>
+    <net code="35" name="/Project Architecture/MotorB/+M" class="Default">
+      <node ref="U10" pin="1" pinfunction="D1" pintype="bidirectional"/>
+      <node ref="U9" pin="13" pinfunction="VBUS" pintype="unspecified"/>
+      <node ref="U9" pin="14" pinfunction="IS+" pintype="unspecified"/>
+      <node ref="U9" pin="7" pinfunction="IS-" pintype="unspecified"/>
+    </net>
+    <net code="36" name="/Project Architecture/MotorB/-M" class="Default">
+      <node ref="U10" pin="9" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/Project Architecture/MotorB/J1_[8..9]" class="Default">
+      <node ref="U10" pin="8" pinfunction="S2A" pintype="bidirectional"/>
+      <node ref="U11" pin="1" pinfunction="D" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/Project Architecture/MotorB/SFF" class="Default">
+      <node ref="U11" pin="6" pinfunction="SEL" pintype="input"/>
+    </net>
+    <net code="39" name="/Project Architecture/MotorB/Stow" class="Default">
+      <node ref="U10" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U10" pin="6" pinfunction="SEL2" pintype="input"/>
+    </net>
+    <net code="40" name="GND" class="Default">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="J1" pin="0" pinfunction="PAD" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="2_1" pinfunction="02" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="output"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="output"/>
+      <node ref="U10" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U11" pin="3" pinfunction="GND" pintype="power_out"/>
+      <node ref="U12" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U7" pin="12" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U9" pin="12" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(U7-IN+)" class="Default">
+      <node ref="U7" pin="1" pinfunction="SH+" pintype="passive"/>
+      <node ref="U7" pin="2" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(U7-IN-)" class="Default">
+      <node ref="U7" pin="8" pinfunction="SH-" pintype="unspecified"/>
+      <node ref="U7" pin="9" pinfunction="IN-" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(U8-VSS)" class="Default">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(U9-IN+)" class="Default">
+      <node ref="U9" pin="1" pinfunction="SH+" pintype="passive"/>
+      <node ref="U9" pin="2" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(U9-IN-)" class="Default">
+      <node ref="U9" pin="8" pinfunction="SH-" pintype="unspecified"/>
+      <node ref="U9" pin="9" pinfunction="IN-" pintype="unspecified"/>
+    </net>
+    <net code="46" name="Net-(U10-VSS)" class="Default">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="47" name="Net-(U11-VSS)" class="Default">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="U11" pin="7" pinfunction="VSS" pintype="power_out"/>
+    </net>
+    <net code="48" name="Net-(U12-VSS)" class="Default">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="U12" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="49" name="VDD" class="Default">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1_1" pinfunction="01" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VBUS_SW" pintype="output"/>
+      <node ref="U10" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="12" pinfunction="EN" pintype="input"/>
+      <node ref="U11" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="EN" pintype="input"/>
+      <node ref="U12" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U12" pin="12" pinfunction="EN" pintype="input"/>
+      <node ref="U8" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="12" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="50" name="unconnected-(J2-PD_INT_3V-Pad3)" class="Default">
+      <node ref="J2" pin="3" pinfunction="PD_INT_3V" pintype="passive+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J2-USB_N-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="USB_N" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J2-USB_P-Pad2)" class="Default">
+      <node ref="J2" pin="2" pinfunction="USB_P" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J6-Pin_4-Pad4)" class="Default">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="54" name="unconnected-(J8-Pin_1-Pad1)" class="Default">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="55" name="unconnected-(J8-Pin_2-Pad2)" class="Default">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="56" name="unconnected-(J9-Pin_1-Pad1)" class="Default">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="57" name="unconnected-(J9-Pin_2-Pad2)" class="Default">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="58" name="unconnected-(J10-Pin_2-Pad2)" class="Default">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="59" name="unconnected-(J10-Pin_3-Pad3)" class="Default">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="60" name="unconnected-(J10-Pin_4-Pad4)" class="Default">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="61" name="unconnected-(J10-Pin_5-Pad5)" class="Default">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(J10-Pin_6-Pad6)" class="Default">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(J10-Pin_7-Pad7)" class="Default">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(J11-Pin_2-Pad2)" class="Default">
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(J11-Pin_3-Pad3)" class="Default">
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J11-Pin_4-Pad4)" class="Default">
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J11-Pin_5-Pad5)" class="Default">
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(J11-Pin_6-Pad6)" class="Default">
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J11-Pin_7-Pad7)" class="Default">
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(U1-PD_INT_3V-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PD_INT_3V" pintype="output"/>
+    </net>
+    <net code="71" name="unconnected-(U1-SCL_3V3-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="SCL_3V3" pintype="output"/>
+    </net>
+    <net code="72" name="unconnected-(U1-SDA_3V3-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="SDA_3V3" pintype="output"/>
+    </net>
+    <net code="73" name="unconnected-(U1-USB_P-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="USB_P" pintype="output"/>
+    </net>
+    <net code="74" name="unconnected-(U1-USP_N-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="USP_N" pintype="output"/>
+    </net>
+    <net code="75" name="unconnected-(U7-A0-Pad4)" class="Default">
+      <node ref="U7" pin="4" pinfunction="A0" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U7-A1-Pad3)" class="Default">
+      <node ref="U7" pin="3" pinfunction="A1" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U7-ALERT-Pad10)" class="Default">
+      <node ref="U7" pin="10" pinfunction="ALERT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U8-EPAD-Pad17)" class="Default">
+      <node ref="U8" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U8-NC-Pad5)" class="Default">
+      <node ref="U8" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U8-NC-Pad7)" class="Default">
+      <node ref="U8" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U8-NC-Pad13)" class="Default">
+      <node ref="U8" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U8-NC-Pad14)" class="Default">
+      <node ref="U8" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U9-A0-Pad4)" class="Default">
+      <node ref="U9" pin="4" pinfunction="A0" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U9-A1-Pad3)" class="Default">
+      <node ref="U9" pin="3" pinfunction="A1" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U9-ALERT-Pad10)" class="Default">
+      <node ref="U9" pin="10" pinfunction="ALERT" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U10-EPAD-Pad17)" class="Default">
+      <node ref="U10" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U10-NC-Pad5)" class="Default">
+      <node ref="U10" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U10-NC-Pad7)" class="Default">
+      <node ref="U10" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U10-NC-Pad13)" class="Default">
+      <node ref="U10" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U10-NC-Pad14)" class="Default">
+      <node ref="U10" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U12-EPAD-Pad17)" class="Default">
+      <node ref="U12" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U12-NC-Pad5)" class="Default">
+      <node ref="U12" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U12-NC-Pad7)" class="Default">
+      <node ref="U12" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U12-NC-Pad13)" class="Default">
+      <node ref="U12" pin="13" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U12-NC-Pad14)" class="Default">
+      <node ref="U12" pin="14" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,11 @@
+Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
+1,8,C19 C21 C24 C25 C28 C30 C33 C34,0.1μF,~,,"Unpolarized capacitor, small symbol",,,
+2,8,C20 C22 C26 C27 C29 C31 C32 C35,10μF,~,,"Unpolarized capacitor, small symbol",,,
+3,2,C18 C23,C,~,,Unpolarized capacitor,,,
+4,10,J1 J2 J4 J5 J6 J7 J8 J9 J10 J11,DE9_Pins_MountingHoles,~,,"9-pin D-SUB connector, pins (male), Mounting Hole Generic connector, single row, 01x08, script generated Generic connector, single row, 01x04, script generated Generic connector, single row, 01x02, script generated",,,
+5,1,J3,HPF-02-01-X-S,,SAMTEC_HPF-02-01-X-S,,Samtec,,
+6,1,SW1,SW_DPST,~,,Double Pole Single Throw (DPST) Switch,,,
+7,2,U7 U9,PINA745AIRELR,https://www.ti.com/lit/gpn/ina745a,REL0014A_PINA745AIRELR_TEX,,,,
+8,3,U8 U10 U12,PTMUX6236RUMR,PTMUX6236RUMR,WQFN16_RUM_TEX,,,,
+9,1,U11,TMUX7219MDGKR,TMUX7219MDGKR,SOIC8_DGK_TEX,,,,
+10,1,U1,~,,,,,,
