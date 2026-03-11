@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "07236397-3ba4-47af-9809-3faac3a2aa49")
 	(paper "A3")
 	(title_block
@@ -10,46 +10,233 @@
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
-	(lib_symbols)
-	(polyline
-		(pts
-			(xy 185.42 87.63) (xy 185.42 99.06)
+	(lib_symbols
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "8b678fb1-fee7-4461-95f7-7f383f478fdc")
-	)
-	(polyline
-		(pts
-			(xy 233.68 125.73) (xy 233.68 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7de816-3d34-497f-b0c8-22f80559d2d8")
-	)
-	(polyline
-		(pts
-			(xy 185.42 85.09) (xy 185.42 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "903e49b2-1b5d-4317-a33b-adfda1594a88")
-	)
-	(polyline
-		(pts
-			(xy 233.68 114.3) (xy 233.68 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(arc
 		(start 185.42 85.09)
@@ -65,9 +252,9 @@
 		(uuid 13e3bc56-4a98-40ef-8c39-3b21620a792f)
 	)
 	(arc
-		(start 234.97 124.44)
-		(mid 234.0749 124.0651)
-		(end 233.7 123.17)
+		(start 301.01 142.22)
+		(mid 300.1149 141.8451)
+		(end 299.74 140.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -78,9 +265,9 @@
 		(uuid 19c30b2f-1391-4be0-8a5f-17a3226c0876)
 	)
 	(arc
-		(start 233.7 125.71)
-		(mid 234.0749 124.8149)
-		(end 234.97 124.44)
+		(start 299.74 143.49)
+		(mid 300.1149 142.5949)
+		(end 301.01 142.22)
 		(stroke
 			(width 0)
 			(type default)
@@ -91,9 +278,9 @@
 		(uuid 5b059745-d833-4f9d-9745-ec7a90904541)
 	)
 	(arc
-		(start 233.7 134.6)
-		(mid 232.9561 136.3961)
-		(end 231.16 137.14)
+		(start 299.74 152.38)
+		(mid 298.9961 154.1761)
+		(end 297.2 154.92)
 		(stroke
 			(width 0)
 			(type default)
@@ -130,9 +317,9 @@
 		(uuid 7c454724-851d-42c5-8823-df570c1fc5eb)
 	)
 	(arc
-		(start 231.16 111.74)
-		(mid 232.9502 112.4898)
-		(end 233.7 114.28)
+		(start 297.2 129.52)
+		(mid 298.9902 130.2698)
+		(end 299.74 132.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -155,10 +342,25 @@
 		)
 		(uuid fda911f3-adb3-4abb-981f-a877a93c831b)
 	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 226.06 95.25 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 20 60 40 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "f04f874a-d252-4474-87f2-c34bbb094a4c")
+	)
 	(text_box "Description"
 		(exclude_from_sim no)
 		(at 166.37 83.82 0)
 		(size 17.145 5.08)
+		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -179,8 +381,9 @@
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
-		(at 234.95 121.92 0)
+		(at 300.99 139.7 0)
 		(size 26.015 5.1)
+		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -203,6 +406,7 @@
 		(exclude_from_sim no)
 		(at 144.78 21.59 0)
 		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -221,68 +425,755 @@
 		)
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
-	(text "Page 5"
-		(exclude_from_sim no)
-		(at 226.06 133.35 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 100 70 50 1)
-			)
-			(justify right bottom)
-			(href "#5")
-		)
-		(uuid "b60ecde0-2a85-4071-a728-47148cd80779")
+	(junction
+		(at 252.73 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ec2d6a-7934-482f-b00b-ecfcfb6d1e5e")
 	)
-	(text "Page 4"
-		(exclude_from_sim no)
-		(at 226.06 95.25 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-				(color 20 60 40 1)
-			)
-			(justify right bottom)
-			(href "#4")
+	(junction
+		(at 256.54 119.38)
+		(diameter 0)
+		(color 194 194 0 0.2)
+		(uuid "65480f1c-0d29-47cb-9f72-aeb7a69d77bd")
+	)
+	(junction
+		(at 247.65 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c37906b8-038c-4b5d-b041-652095d79b17")
+	)
+	(junction
+		(at 247.65 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb454480-ce1e-4a51-ab1f-3b863c04282d")
+	)
+	(junction
+		(at 252.73 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6bac95b-08e9-46a3-b4a3-9d693753a4b1")
+	)
+	(bus
+		(pts
+			(xy 247.65 105.41) (xy 250.19 107.95)
 		)
-		(uuid "f04f874a-d252-4474-87f2-c34bbb094a4c")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "039b64c3-0c20-44cd-9c3d-7ac7c71eb39f")
+	)
+	(bus
+		(pts
+			(xy 229.87 87.63) (xy 261.62 87.63)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "0565fc71-cae4-418c-9bc7-c04faa00b06b")
+	)
+	(wire
+		(pts
+			(xy 241.3 53.34) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be97636-49e2-4cc4-bbf5-5367252a6f07")
+	)
+	(bus
+		(pts
+			(xy 252.73 81.28) (xy 252.73 114.3)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "0f7e5b2c-02f5-4d24-9657-5d363e34e745")
+	)
+	(bus
+		(pts
+			(xy 229.87 146.05) (xy 261.62 146.05)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "190ed233-bba6-4ef8-a4f8-89e5d266c462")
+	)
+	(bus
+		(pts
+			(xy 227.33 85.09) (xy 247.65 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294a1c77-8234-4738-bf07-07a03999caef")
+	)
+	(bus
+		(pts
+			(xy 261.62 133.35) (xy 252.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa19c1c-59e6-4c35-b8b3-c21c9a241df5")
+	)
+	(bus
+		(pts
+			(xy 227.33 90.17) (xy 229.87 87.63)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "300cd2df-2d1a-4817-af55-19301e7a857c")
+	)
+	(bus
+		(pts
+			(xy 227.33 81.28) (xy 252.73 81.28)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "311c5b8e-e037-4a5f-a20c-2d9deb6a4fd2")
+	)
+	(bus
+		(pts
+			(xy 247.65 85.09) (xy 247.65 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b3ee25-bfef-4c71-9aca-2c6dfbb5be4a")
+	)
+	(bus
+		(pts
+			(xy 252.73 137.16) (xy 261.62 137.16)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "34130724-c0fb-41ed-b803-ab679fe4fc84")
+	)
+	(bus
+		(pts
+			(xy 259.08 90.17) (xy 259.08 110.49)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "3c760f9a-dd89-4b3e-8a07-12bb70b01d95")
+	)
+	(bus
+		(pts
+			(xy 252.73 133.35) (xy 252.73 137.16)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "3f829348-d6c1-43b7-b1a4-794ad76f2623")
+	)
+	(bus
+		(pts
+			(xy 229.87 92.71) (xy 227.33 90.17)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "5275b74e-1c0d-41f8-8d3b-2ba2f978815e")
+	)
+	(bus
+		(pts
+			(xy 260.35 111.76) (xy 261.62 111.76)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "52f90daa-4107-4ae5-921d-b36b69d257e8")
+	)
+	(bus
+		(pts
+			(xy 256.54 140.97) (xy 261.62 140.97)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 194 0 0.5)
+		)
+		(uuid "5bf9afbb-3028-4e29-86d3-7e0f7055c8a8")
+	)
+	(bus
+		(pts
+			(xy 247.65 105.41) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64665aa8-8d14-41fa-8275-9a2df35070f6")
+	)
+	(bus
+		(pts
+			(xy 247.65 85.09) (xy 261.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6636d151-592a-41c2-867f-0b0a1adf277c")
+	)
+	(bus
+		(pts
+			(xy 252.73 114.3) (xy 261.62 114.3)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "7a4f2e12-4d6b-4dc9-a32c-7eedf5dd779b")
+	)
+	(bus
+		(pts
+			(xy 229.87 92.71) (xy 229.87 105.41)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "7edfb23c-c96d-4888-a71c-5ea92278426a")
+	)
+	(bus
+		(pts
+			(xy 250.19 107.95) (xy 261.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fb839e-29b1-4af6-a57c-4e7210030167")
+	)
+	(polyline
+		(pts
+			(xy 185.42 87.63) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b678fb1-fee7-4461-95f7-7f383f478fdc")
+	)
+	(bus
+		(pts
+			(xy 256.54 119.38) (xy 261.62 119.38)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 194 0 0.5)
+		)
+		(uuid "8c55b1f7-8b47-4e18-8bcd-887c85e29b36")
+	)
+	(polyline
+		(pts
+			(xy 299.72 143.51) (xy 299.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7de816-3d34-497f-b0c8-22f80559d2d8")
+	)
+	(polyline
+		(pts
+			(xy 185.42 85.09) (xy 185.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903e49b2-1b5d-4317-a33b-adfda1594a88")
+	)
+	(bus
+		(pts
+			(xy 252.73 133.35) (xy 247.65 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f4acf9-af0d-4c8b-aad3-568f728abfc8")
+	)
+	(polyline
+		(pts
+			(xy 299.72 132.08) (xy 299.72 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
+	)
+	(bus
+		(pts
+			(xy 256.54 119.38) (xy 256.54 140.97)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 194 0 0.5)
+		)
+		(uuid "a494ae78-371c-4a0f-881f-01a2f4991844")
+	)
+	(bus
+		(pts
+			(xy 261.62 87.63) (xy 259.08 90.17)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "a4edbee9-e279-4083-8c5f-a539be971a3e")
+	)
+	(bus
+		(pts
+			(xy 229.87 111.76) (xy 229.87 146.05)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "add4360a-3191-44da-ab14-0a56a233b58e")
+	)
+	(bus
+		(pts
+			(xy 259.08 110.49) (xy 260.35 111.76)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "bba1d731-b0a3-47ed-9907-3fb93e0d2085")
+	)
+	(bus
+		(pts
+			(xy 256.54 76.2) (xy 256.54 119.38)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 194 0 0.5)
+		)
+		(uuid "ca880692-e8e2-4ad2-8d33-02727c2e777e")
+	)
+	(bus
+		(pts
+			(xy 252.73 114.3) (xy 252.73 133.35)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 0 0 194 0.43)
+		)
+		(uuid "d0b2b915-1746-4667-8fbf-117a3637f22e")
+	)
+	(bus
+		(pts
+			(xy 227.33 107.95) (xy 229.87 111.76)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "d2d0b1d1-03b8-4c8c-b869-d6ef13ed0070")
+	)
+	(bus
+		(pts
+			(xy 227.33 76.2) (xy 256.54 76.2)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 194 0 0.5)
+		)
+		(uuid "d88e1327-e9aa-41b4-87ca-0e9f160fbdd6")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 243.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8abbdc-f0aa-433c-86ea-8159b3f9c2b2")
+	)
+	(bus
+		(pts
+			(xy 229.87 105.41) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 1.27)
+			(type default)
+			(color 194 0 0 0.51)
+		)
+		(uuid "fcaa93b9-18bf-45e3-b322-37a93c906123")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a075576c-82d6-4252-be5d-a6b0c89e9924")
+		(property "Reference" "#PWR012"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "491d61f6-b28e-4017-80f0-989d1c47be90")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 243.84 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c331ab17-3227-49fb-ad73-e4bb3efbe55c")
+		(property "Reference" "#PWR013"
+			(at 243.84 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a586670d-916d-4101-9ef0-0e8662f329fd")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
-		(at 190.5 114.3)
-		(size 36.83 20.32)
+		(at 261.62 130.81)
+		(size 22.86 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 0 0 0.4700)
+		)
+		(uuid "0c02b15b-35ad-475c-8818-d45dc7028346")
+		(property "Sheetname" "MotorB"
+			(at 261.62 130.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MotorB.kicad_sch"
+			(at 261.62 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "J1_[5..9]" bidirectional
+			(at 261.62 140.97 180)
+			(uuid "e93a43a4-4ba4-433f-ba21-e4357715c7a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDA SDC}" bidirectional
+			(at 261.62 137.16 180)
+			(uuid "9ac44e50-bcae-4add-9c92-e9c283f7adf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{Stow SFF}" bidirectional
+			(at 261.62 133.35 180)
+			(uuid "0ecb2606-1d42-4334-a186-39c76652df97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{+M -M}" input
+			(at 261.62 146.05 180)
+			(uuid "9d73fe94-0339-4bb8-9c58-29bd78f3fff5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "proalbmlb"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 50.8)
+		(size 33.02 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 255 200 0 0.5020)
+			(color 255 153 0 0.5900)
 		)
-		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
-		(property "Sheetname" "Section B - Title B"
-			(at 190.5 113.2709 0)
+		(uuid "2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb")
+		(property "Sheetname" "RotoPD"
+			(at 208.28 50.0884 0)
 			(effects
 				(font
-					(size 1.905 1.905)
-					(bold yes)
+					(size 1.27 1.27)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - TItle B.kicad_sch"
-			(at 190.5 135.2046 0)
+		(property "Sheetfile" "pd.kicad_sch"
+			(at 208.28 64.0846 0)
 			(effects
 				(font
-					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VDD" output
+			(at 241.3 53.34 0)
+			(uuid "b985124b-71a2-4558-ba38-e6582ed2fa19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" output
+			(at 241.3 58.42 0)
+			(uuid "892a2f43-c9d5-4a54-9c96-4b86d60282e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "proalbmlb"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 146.05)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 255 153 0 0.4900)
+		)
+		(uuid "772867b2-b1cc-44b7-b794-85020ff8e2de")
+		(property "Sheetname" "Trigger"
+			(at 196.85 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "trigger.kicad_sch"
+			(at 196.85 150.4446 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
 		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "proalbmlb"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "5")
 				)
@@ -290,41 +1181,315 @@
 		)
 	)
 	(sheet
-		(at 190.5 76.2)
-		(size 36.83 20.32)
+		(at 213.36 105.41)
+		(size 13.97 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 72 72 0.3400)
+		)
+		(uuid "8d9f21e8-8432-4400-a476-7598f31fd9d6")
+		(property "Sheetname" "ALB-MLB Toggle"
+			(at 210.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "toggle.kicad_sch"
+			(at 205.74 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{+M -M}" bidirectional
+			(at 227.33 107.95 0)
+			(uuid "5372d50b-a58f-44e6-a702-ecf84f7fa3c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "proalbmlb"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 73.66)
+		(size 38.1 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(fill
-			(color 128 255 128 0.5000)
+			(color 0 255 255 0.4300)
 		)
-		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "Section A - Title A"
-			(at 190.5 75.1709 0)
+		(uuid "dee490d9-a515-44e7-bb66-1f73103bbfe2")
+		(property "Sheetname" "Connectors"
+			(at 189.23 72.6309 0)
 			(effects
 				(font
 					(size 1.905 1.905)
+					(thickness 0.381)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 190.5 97.1046 0)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 189.23 97.1046 0)
 			(effects
 				(font
-					(face "Arial")
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
 		)
+		(pin "{SDA SDC}" bidirectional
+			(at 227.33 81.28 0)
+			(uuid "57992cbc-e10e-4bfd-af67-2ffa49491d73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "{Stow SFF}" bidirectional
+			(at 227.33 85.09 0)
+			(uuid "99069dd0-40d0-4246-b533-31843973ab31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "J1_[1..9]" bidirectional
+			(at 227.33 76.2 0)
+			(uuid "46020035-01e0-495d-841a-fbd939f50676")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "{+M -M}" bidirectional
+			(at 227.33 90.17 0)
+			(uuid "f03e290d-cc7b-4fe2-bbf5-2a150b291ba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "KDT_Hierarchical_KiBot"
+			(project "proalbmlb"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 261.62 71.12)
+		(size 22.86 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 255 0 0.5000)
+		)
+		(uuid "e3b3b221-caf5-40bd-be26-6466b0cd7282")
+		(property "Sheetname" "Motor Polarity Switch"
+			(at 261.62 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motorPolarity.kicad_sch"
+			(at 261.62 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{Stow SFF}" bidirectional
+			(at 261.62 85.09 180)
+			(uuid "4d24e021-823d-4540-8996-f9f0da6560a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{+M -M}" output
+			(at 261.62 87.63 180)
+			(uuid "0e7c256a-4a84-4e7f-a5db-07163c6d9420")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "proalbmlb"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 261.62 105.41)
+		(size 30.48 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(color 0 0 255 0.4800)
+		)
+		(uuid "f7888403-ed28-43d8-b5e5-143ef539d790")
+		(property "Sheetname" "Motor A"
+			(at 261.62 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motorA.kicad_sch"
+			(at 261.62 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "J1_[1..4]" bidirectional
+			(at 261.62 119.38 180)
+			(uuid "2a454003-336b-40f9-b143-b7a90ec9f158")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDA SDC}" bidirectional
+			(at 261.62 114.3 180)
+			(uuid "6f21d390-1f23-4e2f-8911-fd724441f3db")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{Stow SFF}" bidirectional
+			(at 261.62 107.95 180)
+			(uuid "010f6ab4-194a-4355-8d7a-9a456cf12a78")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "{+M -M}" input
+			(at 261.62 111.76 180)
+			(uuid "bee26051-bcb2-4633-82f8-ea9d650a1af2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
+					(color 0 0 0 1)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "proalbmlb"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
 				)
 			)
 		)

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "hpf")(type "KiCad")(uri "${KIPRJMOD}/lib/HPF_02_01_T_S/HPF-02-01-X-S.kicad_sym")(options "")(descr ""))
+  (lib (name "RotoPD")(type "KiCad")(uri "${KIPRJMOD}/lib/RotoPD-main/RotoPD.kicad_sym")(options "")(descr ""))
+  (lib (name "tmux720")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_TMUX7201RQXR/KiCADv6/2026-01-05_20-05-05.kicad_sym")(options "")(descr ""))
+  (lib (name "ptmux6236")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PTMUX6236RUMR/KiCADv6/2026-01-05_19-52-49.kicad_sym")(options "")(descr ""))
+  (lib (name "pina745a")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PINA745AIRELR/KiCADv6/2026-01-07_16-37-35.kicad_sym")(options "")(descr ""))
+  (lib (name "tmux7219")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_TMUX7219MDGKR/KiCADv6/2026-01-05_20-58-12.kicad_sym")(options "")(descr ""))
+)
