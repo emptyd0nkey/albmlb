@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\dev\work\misc\albmlb\proalbmlb\proalbmlb.kicad_sch</source>
-    <date>2026-03-11T16:48:42-0600</date>
-    <tool>Eeschema 9.0.6</tool>
-    <textvar name="ASSEMBLY_NOTES">ASSEMBLY NOTES</textvar>
-    <textvar name="BOARD_NAME">Board Name</textvar>
-    <textvar name="COMPANY">Company</textvar>
-    <textvar name="DESIGNER">Author</textvar>
-    <textvar name="FABRICATION_NOTES">FABRICATION NOTES</textvar>
-    <textvar name="GIT_HASH_PCB"/>
-    <textvar name="GIT_HASH_SCH"/>
-    <textvar name="GIT_URL"/>
-    <textvar name="PROJECT_NAME">Project Name</textvar>
+    <source>/github/workspace/proalbmlb.kicad_sch</source>
+    <date>Date1</date>
+    <tool>Eeschema 9.0.7+1</tool>
+    <textvar name="ASSEMBLY_NOTES"/>
+    <textvar name="BOARD_NAME">alb_mlb test</textvar>
+    <textvar name="COMPANY">General Atomics EMS</textvar>
+    <textvar name="DESIGNER">Marcus Reighter</textvar>
+    <textvar name="FABRICATION_NOTES"/>
+    <textvar name="GIT_HASH_PCB">6e5ba92</textvar>
+    <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
+    <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
+    <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
-    <textvar name="RELEASE_BODY_UNRELEASED"/>
-    <textvar name="RELEASE_DATE">DD-MMM-YYYY</textvar>
-    <textvar name="RELEASE_DATE_NUM">YYYY-MM-DD</textvar>
+    <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="RELEASE_DATE">12-Mar-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-03-12</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
-    <textvar name="RELEASE_TITLE_UNRELEASED"/>
-    <textvar name="REVISION"/>
+    <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
+    <textvar name="REVISION">+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
-    <textvar name="SHEET_NAME_10">......................................</textvar>
-    <textvar name="SHEET_NAME_11">......................................</textvar>
-    <textvar name="SHEET_NAME_12">......................................</textvar>
-    <textvar name="SHEET_NAME_13">......................................</textvar>
-    <textvar name="SHEET_NAME_14">......................................</textvar>
-    <textvar name="SHEET_NAME_15">......................................</textvar>
-    <textvar name="SHEET_NAME_16">......................................</textvar>
+    <textvar name="SHEET_NAME_10">MotorB</textvar>
+    <textvar name="SHEET_NAME_11">ALB-MLB Toggle</textvar>
+    <textvar name="SHEET_NAME_12">RotoPD</textvar>
+    <textvar name="SHEET_NAME_13">Mode Selector</textvar>
+    <textvar name="SHEET_NAME_14">Raspberrypi</textvar>
+    <textvar name="SHEET_NAME_15">AlbMlb test harnes</textvar>
+    <textvar name="SHEET_NAME_16">encoders</textvar>
     <textvar name="SHEET_NAME_17">......................................</textvar>
     <textvar name="SHEET_NAME_18">......................................</textvar>
     <textvar name="SHEET_NAME_19">......................................</textvar>
@@ -59,20 +59,20 @@
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">Section A - Title A</textvar>
+    <textvar name="SHEET_NAME_4">Connectors</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">Section B -Title B</textvar>
-    <textvar name="SHEET_NAME_6">Power - Sequencing</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
-    <textvar name="VARIANT"/>
+    <textvar name="SHEET_NAME_5">Trigger</textvar>
+    <textvar name="SHEET_NAME_6">Motor Polarity Switch</textvar>
+    <textvar name="SHEET_NAME_7">Power - Sequencing</textvar>
+    <textvar name="SHEET_NAME_8">Motor A</textvar>
+    <textvar name="SHEET_NAME_9">Revision History</textvar>
+    <textvar name="VARIANT">DRAFT</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
-        <company>Company</company>
-        <rev/>
-        <date>2025-01-12</date>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
         <source>proalbmlb.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -88,9 +88,9 @@
     <sheet number="2" name="/Block Diagram/" tstamps="/82da9dbf-ba38-4d08-ba35-a220fa2963b1/">
       <title_block>
         <title>Block Diagram</title>
-        <company>Company</company>
-        <rev/>
-        <date>2025-01-12</date>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -106,9 +106,9 @@
     <sheet number="3" name="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/">
       <title_block>
         <title>Project Architecture</title>
-        <company>Company</company>
-        <rev/>
-        <date>2025-01-12</date>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -178,9 +178,9 @@
     <sheet number="7" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
         <title>Power - Sequencing</title>
-        <company>Company</company>
-        <rev/>
-        <date>2025-01-12</date>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -214,9 +214,9 @@
     <sheet number="9" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
       <title_block>
         <title>Revision History</title>
-        <company>Company</company>
-        <rev/>
-        <date>2025-01-12</date>
+        <company>General Atomics EMS</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -359,14 +359,19 @@
   <components>
     <comp ref="J1">
       <value>DE9_Pins_MountingHoles</value>
+      <footprint>Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm</footprint>
       <datasheet>~</datasheet>
       <description>9-pin D-SUB connector, pins (male), Mounting Hole</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
       </fields>
       <libsource lib="Connector" part="DE9_Pins_MountingHoles" description="9-pin D-SUB connector, pins (male), Mounting Hole"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="DSUB DB9"/>
@@ -376,14 +381,19 @@
     </comp>
     <comp ref="J2">
       <value>Conn_01x08_Socket</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x08, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x08, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -393,13 +403,15 @@
     </comp>
     <comp ref="J3">
       <value>HPF-02-01-X-S</value>
-      <footprint>HPF-02-01-X-S:SAMTEC_HPF-02-01-X-S</footprint>
+      <footprint>Connector_Samtec_HPM_THT:Samtec_HPM-02-05-x-S_Straight_1x02_Pitch5.08mm</footprint>
       <fields>
         <field name="PARTREV">A</field>
         <field name="STANDARD">Manufacturer Recommendations</field>
         <field name="MAXIMUM_PACKAGE_HEIGHT">8.89 mm</field>
         <field name="MANUFACTURER">Samtec</field>
-        <field name="Footprint">HPF-02-01-X-S:SAMTEC_HPF-02-01-X-S</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Samtec_HPM_THT:Samtec_HPM-02-05-x-S_Straight_1x02_Pitch5.08mm</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
@@ -408,6 +420,8 @@
       <property name="STANDARD" value="Manufacturer Recommendations"/>
       <property name="MAXIMUM_PACKAGE_HEIGHT" value="8.89 mm"/>
       <property name="MANUFACTURER" value="Samtec"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
@@ -415,14 +429,19 @@
     </comp>
     <comp ref="J4">
       <value>Conn_01x04_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -432,14 +451,19 @@
     </comp>
     <comp ref="J5">
       <value>Conn_01x04_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -449,14 +473,19 @@
     </comp>
     <comp ref="J6">
       <value>Conn_01x04_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -466,14 +495,19 @@
     </comp>
     <comp ref="J7">
       <value>Conn_01x04_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x04, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x04, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -483,14 +517,19 @@
     </comp>
     <comp ref="J8">
       <value>Conn_01x02_Pin</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x02, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -500,14 +539,19 @@
     </comp>
     <comp ref="J9">
       <value>Conn_01x02_Pin</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x02, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x02, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -517,14 +561,19 @@
     </comp>
     <comp ref="J10">
       <value>Conn_01x08_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x08, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x08, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
@@ -534,24 +583,61 @@
     </comp>
     <comp ref="J11">
       <value>Conn_01x08_Socket</value>
+      <footprint>Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <description>Generic connector, single row, 01x08, script generated</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Connector_Molex:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x08, script generated</field>
       </fields>
       <libsource lib="Connector" part="Conn_01x08_Socket" description="Generic connector, single row, 01x08, script generated"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Connectors"/>
       <property name="Sheetfile" value="connectors.kicad_sch"/>
       <property name="ki_keywords" value="connector"/>
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2/"/>
-      <tstamps>89c48933-3a60-4e16-a818-b08f09fc5fc8</tstamps>
+      <tstamps>0a93fffc-0442-4dfa-897d-c89413b38a44</tstamps>
     </comp>
-    <comp ref="C32">
+    <comp ref="C1">
+      <value>0.1μF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
+      <fields>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="PCM_4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="100nF_0603_16V"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>facd7e78-e802-4e0b-a3a9-cbff0b262df4</tstamps>
+    </comp>
+    <comp ref="C2">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -560,7 +646,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -570,6 +658,146 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="10uF_1206_35V"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>26d143a7-21c4-4f81-847a-1abaf83a7818</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1μF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
+      <fields>
+        <field name="Specifications">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Part Number">0603YC104KAT2A</field>
+        <field name="Display">0.1uF</field>
+        <field name="JLCPCB ID">C14663</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
+      </fields>
+      <libsource lib="PCM_4ms_Capacitor" part="0.1uF_0603_16V" description="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Specifications" value="0.1uF, Min. 16V 10%, X7R or X5R or similar"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Part Number" value="0603YC104KAT2A"/>
+      <property name="Display" value="0.1uF"/>
+      <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="100nF_0603_16V"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>c07c07cc-4edd-4319-a0dd-54733876ff4e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10μF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>10uF, X6S, Min 35V</description>
+      <fields>
+        <field name="Specifications">10uF, X6S, Min 35V</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">C3216X6S1V106K160AC</field>
+        <field name="Display">10uF</field>
+        <field name="JLCPCB ID">C13585</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">10uF, X6S, Min 35V</field>
+      </fields>
+      <libsource lib="PCM_4ms_Capacitor" part="10uF_1206_35V" description="10uF, X6S, Min 35V"/>
+      <property name="Specifications" value="10uF, X6S, Min 35V"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Part Number" value="C3216X6S1V106K160AC"/>
+      <property name="Display" value="10uF"/>
+      <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="10uF_1206_35V"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>f966e65b-979b-434b-9ee1-3a252a5b4c69</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Push_LED</value>
+      <footprint>Button_Switch_THT:BH16NBSBB</footprint>
+      <datasheet>~</datasheet>
+      <description>Push button switch with LED, generic</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Button_Switch_THT:BH16NBSBB</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch with LED, generic</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push_LED" description="Push button switch with LED, generic"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button LED"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>551b2ded-efec-4862-89b9-9a49b817b454</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TMUX7201RQXR</value>
+      <footprint>TMUX7201RQXR:WSON8_RQX_TEX-L</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tmux7201</datasheet>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">TMUX7201RQXR:WSON8_RQX_TEX-L</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tmux7201</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="tmux720" part="TMUX7201RQXR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Trigger"/>
+      <property name="Sheetfile" value="trigger.kicad_sch"/>
+      <property name="ki_keywords" value="TMUX7201RQXR"/>
+      <property name="ki_fp_filters" value="WSON8_RQX_TEX WSON8_RQX_TEX-M WSON8_RQX_TEX-L"/>
+      <sheetpath names="/Project Architecture/Trigger/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/772867b2-b1cc-44b7-b794-85020ff8e2de/"/>
+      <tstamps>60e75ccb-1139-4d47-9211-0f1c48662484</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>10μF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <description>10uF, X6S, Min 35V</description>
+      <fields>
+        <field name="Specifications">10uF, X6S, Min 35V</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">C3216X6S1V106K160AC</field>
+        <field name="Display">10uF</field>
+        <field name="JLCPCB ID">C13585</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">10uF, X6S, Min 35V</field>
+      </fields>
+      <libsource lib="PCM_4ms_Capacitor" part="10uF_1206_35V" description="10uF, X6S, Min 35V"/>
+      <property name="Specifications" value="10uF, X6S, Min 35V"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Part Number" value="C3216X6S1V106K160AC"/>
+      <property name="Display" value="10uF"/>
+      <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor Polarity Switch"/>
       <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -579,7 +807,7 @@
     </comp>
     <comp ref="C33">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -588,7 +816,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -598,6 +828,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor Polarity Switch"/>
       <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -607,7 +839,7 @@
     </comp>
     <comp ref="C34">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -616,7 +848,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -626,6 +860,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor Polarity Switch"/>
       <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -635,7 +871,7 @@
     </comp>
     <comp ref="C35">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -644,7 +880,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -654,6 +892,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor Polarity Switch"/>
       <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -661,16 +901,66 @@
       <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
       <tstamps>48877348-3261-4bf3-ac3a-247712712cdc</tstamps>
     </comp>
+    <comp ref="NT1">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>a36ec3cc-4357-4b11-a3d8-0cc121266295</tstamps>
+    </comp>
+    <comp ref="NT2">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Motor Polarity Switch"/>
+      <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/Motor Polarity Switch/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e3b3b221-caf5-40bd-be26-6466b0cd7282/"/>
+      <tstamps>67f72049-20f3-4e1d-bbd5-b189a0bcbc24</tstamps>
+    </comp>
     <comp ref="U12">
       <value>PTMUX6236RUMR</value>
-      <footprint>WQFN16_RUM_TEX</footprint>
-      <datasheet>PTMUX6236RUMR</datasheet>
+      <footprint>Package_DFN_QFN:WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</footprint>
+      <datasheet>https://www.ti.com/document-viewer/tmux6236/datasheet</datasheet>
       <fields>
-        <field name="Footprint">WQFN16_RUM_TEX</field>
-        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Package_DFN_QFN:WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias</field>
+        <field name="Datasheet">https://www.ti.com/document-viewer/tmux6236/datasheet</field>
         <field name="Description"/>
       </fields>
       <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor Polarity Switch"/>
       <property name="Sheetfile" value="motorPolarity.kicad_sch"/>
       <property name="ki_keywords" value="PTMUX6236RUMR"/>
@@ -680,14 +970,29 @@
     </comp>
     <comp ref="C18">
       <value>10uF_1206_35V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <description>10uF, X6S, Min 35V</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Specifications">10uF, X6S, Min 35V</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">C3216X6S1V106K160AC</field>
+        <field name="Display">10uF</field>
+        <field name="JLCPCB ID">C13585</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
       <libsource lib="PCM_4ms_Capacitor" part="10uF_1206_35V" description="10uF, X6S, Min 35V"/>
+      <property name="Specifications" value="10uF, X6S, Min 35V"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Part Number" value="C3216X6S1V106K160AC"/>
+      <property name="Display" value="10uF"/>
+      <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -697,7 +1002,7 @@
     </comp>
     <comp ref="C19">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -706,7 +1011,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -716,6 +1023,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -725,7 +1034,7 @@
     </comp>
     <comp ref="C20">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -734,7 +1043,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -744,6 +1055,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -753,7 +1066,7 @@
     </comp>
     <comp ref="C21">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -762,7 +1075,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -772,6 +1087,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -781,7 +1098,7 @@
     </comp>
     <comp ref="C22">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -790,7 +1107,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -800,6 +1119,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -809,14 +1130,18 @@
     </comp>
     <comp ref="U7">
       <value>PINA745AIRELR</value>
-      <footprint>REL0014A_PINA745AIRELR_TEX</footprint>
+      <footprint>PINA745AIRELR:REL0014A_PINA745AIRELR_TEX</footprint>
       <datasheet>https://www.ti.com/lit/gpn/ina745a</datasheet>
       <fields>
-        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PINA745AIRELR:REL0014A_PINA745AIRELR_TEX</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
         <field name="Description"/>
       </fields>
       <libsource lib="pina745a" part="PINA745AIRELR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="PINA745AIRELR"/>
@@ -826,14 +1151,18 @@
     </comp>
     <comp ref="U8">
       <value>PTMUX6236RUMR</value>
-      <footprint>WQFN16_RUM_TEX</footprint>
-      <datasheet>PTMUX6236RUMR</datasheet>
+      <footprint>PTMUX6236RUMR:WQFN16_RUM_TEX</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tmux6236</datasheet>
       <fields>
-        <field name="Footprint">WQFN16_RUM_TEX</field>
-        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PTMUX6236RUMR:WQFN16_RUM_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tmux6236</field>
         <field name="Description"/>
       </fields>
       <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Motor A"/>
       <property name="Sheetfile" value="motorA.kicad_sch"/>
       <property name="ki_keywords" value="PTMUX6236RUMR"/>
@@ -843,14 +1172,29 @@
     </comp>
     <comp ref="C23">
       <value>10uF_1206_35V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
-      <description>Unpolarized capacitor</description>
+      <description>10uF, X6S, Min 35V</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Specifications">10uF, X6S, Min 35V</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Part Number">C3216X6S1V106K160AC</field>
+        <field name="Display">10uF</field>
+        <field name="JLCPCB ID">C13585</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="Description">Unpolarized capacitor</field>
+        <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
       <libsource lib="PCM_4ms_Capacitor" part="10uF_1206_35V" description="10uF, X6S, Min 35V"/>
+      <property name="Specifications" value="10uF, X6S, Min 35V"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Part Number" value="C3216X6S1V106K160AC"/>
+      <property name="Display" value="10uF"/>
+      <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -860,7 +1204,7 @@
     </comp>
     <comp ref="C24">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -869,7 +1213,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -879,6 +1225,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -888,7 +1236,7 @@
     </comp>
     <comp ref="C25">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -897,7 +1245,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -907,6 +1257,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -916,7 +1268,7 @@
     </comp>
     <comp ref="C26">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -925,7 +1277,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -935,6 +1289,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -944,7 +1300,7 @@
     </comp>
     <comp ref="C27">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -953,7 +1309,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -963,6 +1321,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -972,7 +1332,7 @@
     </comp>
     <comp ref="C28">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -981,7 +1341,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -991,6 +1353,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -1000,7 +1364,7 @@
     </comp>
     <comp ref="C29">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -1009,7 +1373,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -1019,6 +1385,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -1028,7 +1396,7 @@
     </comp>
     <comp ref="C30">
       <value>0.1μF</value>
-      <footprint>4ms_Capacitor:C_0603</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>0.1uF, Min. 16V 10%, X7R or X5R or similar</description>
       <fields>
@@ -1037,7 +1405,9 @@
         <field name="Part Number">0603YC104KAT2A</field>
         <field name="Display">0.1uF</field>
         <field name="JLCPCB ID">C14663</field>
-        <field name="Footprint">4ms_Capacitor:C_0603</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">0.1uF, Min. 16V 10%, X7R or X5R or similar</field>
       </fields>
@@ -1047,6 +1417,8 @@
       <property name="Part Number" value="0603YC104KAT2A"/>
       <property name="Display" value="0.1uF"/>
       <property name="JLCPCB ID" value="C14663"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="100nF_0603_16V"/>
@@ -1056,7 +1428,7 @@
     </comp>
     <comp ref="C31">
       <value>10μF</value>
-      <footprint>4ms_Capacitor:C_1206</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <datasheet>~</datasheet>
       <description>10uF, X6S, Min 35V</description>
       <fields>
@@ -1065,7 +1437,9 @@
         <field name="Part Number">C3216X6S1V106K160AC</field>
         <field name="Display">10uF</field>
         <field name="JLCPCB ID">C13585</field>
-        <field name="Footprint">4ms_Capacitor:C_1206</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="Description">10uF, X6S, Min 35V</field>
       </fields>
@@ -1075,6 +1449,8 @@
       <property name="Part Number" value="C3216X6S1V106K160AC"/>
       <property name="Display" value="10uF"/>
       <property name="JLCPCB ID" value="C13585"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="10uF_1206_35V"/>
@@ -1084,14 +1460,18 @@
     </comp>
     <comp ref="U9">
       <value>PINA745AIRELR</value>
-      <footprint>REL0014A_PINA745AIRELR_TEX</footprint>
+      <footprint>PINA745AIRELR:REL0014A_PINA745AIRELR_TEX</footprint>
       <datasheet>https://www.ti.com/lit/gpn/ina745a</datasheet>
       <fields>
-        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PINA745AIRELR:REL0014A_PINA745AIRELR_TEX</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
         <field name="Description"/>
       </fields>
       <libsource lib="pina745a" part="PINA745AIRELR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="PINA745AIRELR"/>
@@ -1101,14 +1481,18 @@
     </comp>
     <comp ref="U10">
       <value>PTMUX6236RUMR</value>
-      <footprint>WQFN16_RUM_TEX</footprint>
-      <datasheet>PTMUX6236RUMR</datasheet>
+      <footprint>PTMUX6236RUMR:WQFN16_RUM_TEX</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/tmux6236</datasheet>
       <fields>
-        <field name="Footprint">WQFN16_RUM_TEX</field>
-        <field name="Datasheet">PTMUX6236RUMR</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PTMUX6236RUMR:WQFN16_RUM_TEX</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tmux6236</field>
         <field name="Description"/>
       </fields>
       <libsource lib="ptmux6236" part="PTMUX6236RUMR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="PTMUX6236RUMR"/>
@@ -1118,14 +1502,18 @@
     </comp>
     <comp ref="U11">
       <value>TMUX7219MDGKR</value>
-      <footprint>SOIC8_DGK_TEX</footprint>
-      <datasheet>TMUX7219MDGKR</datasheet>
+      <footprint>TMUX7219MDGKR:SOIC8_DGK_TEX</footprint>
+      <datasheet>https://www.ti.com/document-viewer/tmux7219m/datasheet</datasheet>
       <fields>
-        <field name="Footprint">SOIC8_DGK_TEX</field>
-        <field name="Datasheet">TMUX7219MDGKR</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">TMUX7219MDGKR:SOIC8_DGK_TEX</field>
+        <field name="Datasheet">https://www.ti.com/document-viewer/tmux7219m/datasheet</field>
         <field name="Description"/>
       </fields>
       <libsource lib="tmux7219" part="TMUX7219MDGKR" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="MotorB"/>
       <property name="Sheetfile" value="MotorB.kicad_sch"/>
       <property name="ki_keywords" value="TMUX7219MDGKR"/>
@@ -1133,16 +1521,67 @@
       <sheetpath names="/Project Architecture/MotorB/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/0c02b15b-35ad-475c-8818-d45dc7028346/"/>
       <tstamps>35b74239-adff-4298-afcc-3296b5a3188d</tstamps>
     </comp>
+    <comp ref="NT3">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="ALB-MLB Toggle"/>
+      <property name="Sheetfile" value="toggle.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/ALB-MLB Toggle/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8d9f21e8-8432-4400-a476-7598f31fd9d6/"/>
+      <tstamps>5b34a7ea-7f91-45b2-8647-176698d2740e</tstamps>
+    </comp>
+    <comp ref="NT4">
+      <value>NetTie_2</value>
+      <datasheet>~</datasheet>
+      <description>Net tie, 2 pins</description>
+      <fields>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Net tie, 2 pins</field>
+      </fields>
+      <libsource lib="Device" part="NetTie_2" description="Net tie, 2 pins"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="ALB-MLB Toggle"/>
+      <property name="Sheetfile" value="toggle.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="ki_keywords" value="net tie short"/>
+      <property name="ki_fp_filters" value="Net*Tie*"/>
+      <sheetpath names="/Project Architecture/ALB-MLB Toggle/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/8d9f21e8-8432-4400-a476-7598f31fd9d6/"/>
+      <tstamps>d9ff5422-d1e8-4c39-801f-055b48d028f0</tstamps>
+    </comp>
     <comp ref="SW1">
       <value>SW_DPST</value>
+      <footprint>Button_Switch_THT:SW_NKK_G1xJP</footprint>
       <datasheet>~</datasheet>
       <description>Double Pole Single Throw (DPST) Switch</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Button_Switch_THT:SW_NKK_G1xJP</field>
         <field name="Datasheet">~</field>
         <field name="Description">Double Pole Single Throw (DPST) Switch</field>
       </fields>
       <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="ALB-MLB Toggle"/>
       <property name="Sheetfile" value="toggle.kicad_sch"/>
       <property name="ki_keywords" value="switch dual double-pole single-throw OFF-ON"/>
@@ -1151,49 +1590,128 @@
     </comp>
     <comp ref="U1">
       <value>~</value>
+      <footprint>Audio_Module:rotopd</footprint>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Audio_Module:rotopd</field>
         <field name="Datasheet"/>
         <field name="Description"/>
       </fields>
       <libsource lib="RotoPD" part="rotopd" description=""/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="RotoPD"/>
       <property name="Sheetfile" value="pd.kicad_sch"/>
       <sheetpath names="/Project Architecture/RotoPD/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb/"/>
       <tstamps>ad38aebc-ceb7-48c1-be9a-3fc2832cb177</tstamps>
     </comp>
-    <comp ref="J12">
-      <value>Conn_01x04_Socket</value>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x04, script generated</description>
-      <fields>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x04, script generated</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x04_Socket" description="Generic connector, single row, 01x04, script generated"/>
-      <property name="Sheetname" value="Mode Selector"/>
-      <property name="Sheetfile" value="untitled.kicad_sch"/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/Project Architecture/Mode Selector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a6c7bfc-faeb-47ef-8e4b-cc2c9493c444/"/>
-      <tstamps>c0725096-f199-49d8-9fac-ab4b27d77a5a</tstamps>
-    </comp>
     <comp ref="SW2">
       <value>SW_Rotary_1x3_MP</value>
+      <footprint>Button_Switch_THT:A_D22022LB</footprint>
       <datasheet>~</datasheet>
       <description>Rotary switch 1x3, SP3T with mount point</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">Button_Switch_THT:A_D22022LB</field>
         <field name="Datasheet">~</field>
         <field name="Description">Rotary switch 1x3, SP3T with mount point</field>
       </fields>
       <libsource lib="Switch" part="SW_Rotary_1x3_MP" description="Rotary switch 1x3, SP3T with mount point"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
       <property name="Sheetname" value="Mode Selector"/>
       <property name="Sheetfile" value="untitled.kicad_sch"/>
       <property name="ki_keywords" value="Rotary switch 1x3 SP3T"/>
       <sheetpath names="/Project Architecture/Mode Selector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/4a6c7bfc-faeb-47ef-8e4b-cc2c9493c444/"/>
       <tstamps>4235a490-59c8-44ee-bb12-24fa168bd3a4</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SC1176</value>
+      <footprint>pictures:MODULE_SC1176</footprint>
+      <fields>
+        <field name="PARTREV">April 2024</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">pictures:MODULE_SC1176</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="pi" part="SC1176" description=""/>
+      <property name="PARTREV" value="April 2024"/>
+      <property name="MANUFACTURER" value="Raspberry Pi"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="Raspberrypi"/>
+      <property name="Sheetfile" value="pi.kicad_sch"/>
+      <sheetpath names="/Project Architecture/Raspberrypi/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e020a81d-84f3-4644-80d6-529a40250d25/"/>
+      <tstamps>a225121e-70c8-45e0-aefd-bd0b4f991c81</tstamps>
+    </comp>
+    <comp ref="ENC1">
+      <value>Encoder_Rotary_11mm_SPST_DShaft</value>
+      <footprint>PCM_4ms_Encoder:ROTENC-12MM-BUT</footprint>
+      <description>Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</description>
+      <fields>
+        <field name="Manufacturer">Alpha Taiwan</field>
+        <field name="Part Number">RE111F-41B3N-20F-20P-N</field>
+        <field name="Specifications">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+        <field name="Manufacturer 2">Bourns</field>
+        <field name="Part Number 2">PEC11L-4020F-S0020</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PCM_4ms_Encoder:ROTENC-12MM-BUT</field>
+        <field name="Datasheet"/>
+        <field name="Description">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+      </fields>
+      <libsource lib="PCM_4ms_Switch" part="Encoder_Rotary_11mm_SPST_DShaft" description="Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"/>
+      <property name="Manufacturer" value="Alpha Taiwan"/>
+      <property name="Part Number" value="RE111F-41B3N-20F-20P-N"/>
+      <property name="Specifications" value="Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"/>
+      <property name="Manufacturer 2" value="Bourns"/>
+      <property name="Part Number 2" value="PEC11L-4020F-S0020"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="encoders"/>
+      <property name="Sheetfile" value="encoders.kicad_sch"/>
+      <property name="ki_keywords" value="Encoder Rotary Smooth"/>
+      <property name="ki_fp_filters" value="*ROTENC-12MM-BUT*"/>
+      <sheetpath names="/Project Architecture/encoders/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/386223a5-2386-4f54-bc7e-fb4b7cf4dee5/"/>
+      <tstamps>904f6e39-62d0-41ea-a39c-0756fef1e326</tstamps>
+    </comp>
+    <comp ref="ENC2">
+      <value>Encoder_Rotary_11mm_SPST_DShaft</value>
+      <footprint>PCM_4ms_Encoder:ROTENC-12MM-BUT</footprint>
+      <description>Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</description>
+      <fields>
+        <field name="Manufacturer">Alpha Taiwan</field>
+        <field name="Part Number">RE111F-41B3N-20F-20P-N</field>
+        <field name="Specifications">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+        <field name="Manufacturer 2">Bourns</field>
+        <field name="Part Number 2">PEC11L-4020F-S0020</field>
+        <field name="Config"/>
+        <field name="Manufacturer Part Number"/>
+        <field name="Footprint">PCM_4ms_Encoder:ROTENC-12MM-BUT</field>
+        <field name="Datasheet"/>
+        <field name="Description">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+      </fields>
+      <libsource lib="PCM_4ms_Switch" part="Encoder_Rotary_11mm_SPST_DShaft" description="Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"/>
+      <property name="Manufacturer" value="Alpha Taiwan"/>
+      <property name="Part Number" value="RE111F-41B3N-20F-20P-N"/>
+      <property name="Specifications" value="Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft"/>
+      <property name="Manufacturer 2" value="Bourns"/>
+      <property name="Part Number 2" value="PEC11L-4020F-S0020"/>
+      <property name="Config" value=""/>
+      <property name="Manufacturer Part Number" value=""/>
+      <property name="Sheetname" value="encoders"/>
+      <property name="Sheetfile" value="encoders.kicad_sch"/>
+      <property name="ki_keywords" value="Encoder Rotary Smooth"/>
+      <property name="ki_fp_filters" value="*ROTENC-12MM-BUT*"/>
+      <sheetpath names="/Project Architecture/encoders/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/386223a5-2386-4f54-bc7e-fb4b7cf4dee5/"/>
+      <tstamps>4c8c3e71-332a-4510-b768-659c1b386954</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1266,9 +1784,9 @@
         <fp>DSUB*Pins*</fp>
       </footprints>
       <fields>
-        <field name="Reference">J</field>
+        <field name="Reference">J1</field>
         <field name="Value">DE9_Pins_MountingHoles</field>
-        <field name="Footprint"/>
+        <field name="Footprint">Connector_Dsub:DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm</field>
         <field name="Datasheet">~</field>
         <field name="Description">9-pin D-SUB connector, pins (male), Mounting Hole</field>
       </fields>
@@ -1347,6 +1865,31 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="PCM_4ms_Switch" part="Encoder_Rotary_11mm_SPST_DShaft">
+      <description>Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</description>
+      <footprints>
+        <fp>*ROTENC-12MM-BUT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ENC</field>
+        <field name="Value">Encoder_Rotary_11mm_SPST_DShaft</field>
+        <field name="Footprint">4ms_Encoder:ENC_SPST_12mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+        <field name="Manufacturer">Alpha Taiwan</field>
+        <field name="Part Number">RE111F-41B3N-20F-20P-N</field>
+        <field name="Specifications">Rotary Encoder 11mm with SPST, No Detent, 20mm D-shaft</field>
+        <field name="Manufacturer 2">Bourns</field>
+        <field name="Part Number 2">PEC11L-4020F-S0020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="RotoPD" part="rotopd">
       <fields>
         <field name="Reference">U</field>
@@ -1381,6 +1924,23 @@
         <pin num="2" name="2" type="passive"/>
         <pin num="3" name="3" type="passive"/>
         <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push_LED">
+      <description>Push button switch with LED, generic</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Push button switch with LED, generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Switch" part="SW_Rotary_1x3_MP">
@@ -1418,6 +1978,60 @@
         <pin num="2_1" name="02" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="pi" part="SC1176">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">SC1176</field>
+        <field name="Footprint">pictures:MODULE_SC1176</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="PARTREV">April 2024</field>
+        <field name="MANUFACTURER">Raspberry Pi</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3_1" type="power_in"/>
+        <pin num="2" name="5V_2" type="power_in"/>
+        <pin num="3" name="GPIO2/SDA1" type="bidirectional"/>
+        <pin num="4" name="5V_4" type="power_in"/>
+        <pin num="5" name="GPIO3/SCL" type="bidirectional"/>
+        <pin num="6" name="GND_6" type="power_in"/>
+        <pin num="7" name="GPIO4/GPIO_GCLK" type="bidirectional"/>
+        <pin num="8" name="GPIO14/TXD0" type="bidirectional"/>
+        <pin num="9" name="GND_9" type="power_in"/>
+        <pin num="10" name="GPIO15/RXD0" type="bidirectional"/>
+        <pin num="11" name="GPIO17/GPIO_GEN0" type="bidirectional"/>
+        <pin num="12" name="GPIO18/GPIO_GEN1" type="bidirectional"/>
+        <pin num="13" name="GPIO27/GPIO_GEN2" type="bidirectional"/>
+        <pin num="14" name="GND_14" type="power_in"/>
+        <pin num="15" name="GPIO22/GPIO_GEN3" type="bidirectional"/>
+        <pin num="16" name="GPIO23/GPIO_GEN4" type="bidirectional"/>
+        <pin num="17" name="3V3_17" type="power_in"/>
+        <pin num="18" name="GPIO24/GPIO_GEN5" type="bidirectional"/>
+        <pin num="19" name="GPIO10/SPI_MOSI" type="bidirectional"/>
+        <pin num="20" name="GND_20" type="power_in"/>
+        <pin num="21" name="GPIO9/SPI_MISO" type="bidirectional"/>
+        <pin num="22" name="GPIO25/GPIO_GEN6" type="bidirectional"/>
+        <pin num="23" name="GPIO11/SPI_SCLK" type="bidirectional"/>
+        <pin num="24" name="GPIO8/SPI_~{CE0}" type="bidirectional"/>
+        <pin num="25" name="GND_25" type="power_in"/>
+        <pin num="26" name="GPIO7/SPI_~{CE1}" type="bidirectional"/>
+        <pin num="27" name="ID_SD" type="bidirectional"/>
+        <pin num="28" name="ID_SC" type="bidirectional"/>
+        <pin num="29" name="GPIO5" type="bidirectional"/>
+        <pin num="30" name="GND_30" type="power_in"/>
+        <pin num="31" name="GPIO6" type="bidirectional"/>
+        <pin num="32" name="GPIO12" type="bidirectional"/>
+        <pin num="33" name="GPIO13" type="bidirectional"/>
+        <pin num="34" name="GND_34" type="power_in"/>
+        <pin num="35" name="GPIO19" type="bidirectional"/>
+        <pin num="36" name="GPIO16" type="bidirectional"/>
+        <pin num="37" name="GPIO26" type="bidirectional"/>
+        <pin num="38" name="GPIO20" type="bidirectional"/>
+        <pin num="39" name="GND_39" type="power_in"/>
+        <pin num="40" name="GPIO21" type="bidirectional"/>
+      </pins>
+    </libpart>
     <libpart lib="pina745a" part="PINA745AIRELR">
       <docs>https://www.ti.com/lit/gpn/ina745a</docs>
       <footprints>
@@ -1426,7 +2040,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">PINA745AIRELR</field>
-        <field name="Footprint">REL0014A_PINA745AIRELR_TEX</field>
+        <field name="Footprint">pina:REL0014A_PINA745AIRELR_TEX</field>
         <field name="Datasheet">https://www.ti.com/lit/gpn/ina745a</field>
         <field name="Description"/>
       </fields>
@@ -1481,6 +2095,32 @@
         <pin num="17" name="EPAD" type="unspecified"/>
       </pins>
     </libpart>
+    <libpart lib="tmux720" part="TMUX7201RQXR">
+      <docs>https://www.ti.com/lit/gpn/tmux7201</docs>
+      <footprints>
+        <fp>WSON8_RQX_TEX</fp>
+        <fp>WSON8_RQX_TEX-M</fp>
+        <fp>WSON8_RQX_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">TMUX7201RQXR</field>
+        <field name="Footprint">TMUX7201RQXR:WSON8_RQX_TEX-L</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/tmux7201</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="bidirectional"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="GND" type="power_out"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="SEL" type="input"/>
+        <pin num="7" name="VSS" type="power_in"/>
+        <pin num="8" name="D" type="bidirectional"/>
+        <pin num="9" name="NC/GND" type="bidirectional"/>
+      </pins>
+    </libpart>
     <libpart lib="tmux7219" part="TMUX7219MDGKR">
       <docs>TMUX7219MDGKR</docs>
       <footprints>
@@ -1509,28 +2149,31 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Users\ga10027574\AppData\Local\Programs\KiCad\9.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Device">
-      <uri>C:\Users\ga10027574\AppData\Local\Programs\KiCad\9.0\share\kicad\symbols\/Device.kicad_sym</uri>
-    </library>
-    <library logical="PCM_4ms_Capacitor">
-      <uri>C:\dev\KiCad\9.0\3rdparty\/symbols/com_github_4ms_4ms-kicad-lib/4ms_Capacitor.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="RotoPD">
-      <uri>C:\dev\work\misc\albmlb\proalbmlb/lib/RotoPD-main/RotoPD.kicad_sym</uri>
+      <uri>/github/workspace/lib/RotoPD-main/RotoPD.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Users\ga10027574\AppData\Local\Programs\KiCad\9.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="pi">
+      <uri>/github/workspace/lib/SC1176/SC1176.kicad_sym</uri>
     </library>
     <library logical="pina745a">
-      <uri>C:\dev\work\misc\albmlb\proalbmlb/lib/ul_PINA745AIRELR/KiCADv6/2026-01-07_16-37-35.kicad_sym</uri>
+      <uri>/github/workspace/lib/ul_PINA745AIRELR/KiCADv6/2026-01-07_16-37-35.kicad_sym</uri>
     </library>
     <library logical="ptmux6236">
-      <uri>C:\dev\work\misc\albmlb\proalbmlb/lib/ul_PTMUX6236RUMR/KiCADv6/2026-01-05_19-52-49.kicad_sym</uri>
+      <uri>/github/workspace/lib/ul_PTMUX6236RUMR/KiCADv6/2026-01-05_19-52-49.kicad_sym</uri>
+    </library>
+    <library logical="tmux720">
+      <uri>/github/workspace/lib/ul_TMUX7201RQXR/KiCADv6/2026-01-05_20-05-05.kicad_sym</uri>
     </library>
     <library logical="tmux7219">
-      <uri>C:\dev\work\misc\albmlb\proalbmlb/lib/ul_TMUX7219MDGKR/KiCADv6/2026-01-05_20-58-12.kicad_sym</uri>
+      <uri>/github/workspace/lib/ul_TMUX7219MDGKR/KiCADv6/2026-01-05_20-58-12.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1539,230 +2182,300 @@
       <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="+3.3V" pintype="output"/>
+      <node ref="U2" pin="1" pinfunction="3V3_1" pintype="power_in"/>
     </net>
     <net code="2" name="+5V" class="Default">
-      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
       <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="SW2" pin="4" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="+5V" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="5V_2" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="5V_4" pintype="power_in"/>
       <node ref="U7" pin="11" pinfunction="11" pintype="unspecified"/>
       <node ref="U9" pin="11" pinfunction="11" pintype="unspecified"/>
     </net>
-    <net code="5" name="/Project Architecture/ALB-MLB Toggle/+M" class="Default">
-      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="3" name="+VDC" class="Default">
+      <node ref="NT1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="D" pintype="bidirectional"/>
     </net>
-    <net code="6" name="/Project Architecture/ALB-MLB Toggle/-M" class="Default">
+    <net code="4" name="-VDC" class="Default">
+      <node ref="NT2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/Project Architecture/ALB-MLB Toggle/+M" class="Default">
+      <node ref="NT3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="6" name="/Project Architecture/ALB-MLB Toggle/+MB" class="Default">
+      <node ref="NT3" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="7" name="/Project Architecture/ALB-MLB Toggle/&lt;NO NET&gt;" class="Default">
+    <net code="7" name="/Project Architecture/ALB-MLB Toggle/-M" class="Default">
+      <node ref="NT4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Project Architecture/ALB-MLB Toggle/-MB" class="Default">
+      <node ref="NT4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="/Project Architecture/Connectors/+M" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="11" name="/Project Architecture/Connectors/+MB" class="Default">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="12" name="/Project Architecture/Connectors/-M" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="13" name="/Project Architecture/Connectors/-MB" class="Default">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="14" name="/Project Architecture/Connectors/&lt;NO NET&gt;" class="Default">
       <node ref="U12" pin="10" pinfunction="S2B" pintype="bidirectional"/>
       <node ref="U12" pin="16" pinfunction="S1A" pintype="bidirectional"/>
       <node ref="U12" pin="2" pinfunction="S1B" pintype="bidirectional"/>
       <node ref="U12" pin="8" pinfunction="S2A" pintype="bidirectional"/>
     </net>
-    <net code="8" name="/Project Architecture/Connectors/+M" class="Default">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="9" name="/Project Architecture/Connectors/-M" class="Default">
-      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="10" name="/Project Architecture/Connectors/J1_1" class="Default">
+    <net code="15" name="/Project Architecture/Connectors/J1_1" class="Default">
       <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="2" pinfunction="S1B" pintype="bidirectional"/>
       <node ref="U8" pin="2" pinfunction="S1B" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Project Architecture/Connectors/J1_2" class="Default">
+    <net code="16" name="/Project Architecture/Connectors/J1_2" class="Default">
       <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U10" pin="16" pinfunction="S1A" pintype="bidirectional"/>
       <node ref="U8" pin="16" pinfunction="S1A" pintype="bidirectional"/>
     </net>
-    <net code="12" name="/Project Architecture/Connectors/J1_3" class="Default">
+    <net code="17" name="/Project Architecture/Connectors/J1_3" class="Default">
       <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="U10" pin="10" pinfunction="S2B" pintype="bidirectional"/>
       <node ref="U8" pin="8" pinfunction="S2A" pintype="bidirectional"/>
     </net>
-    <net code="13" name="/Project Architecture/Connectors/J1_4" class="Default">
+    <net code="18" name="/Project Architecture/Connectors/J1_4" class="Default">
       <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="U11" pin="2" pinfunction="S1" pintype="bidirectional"/>
       <node ref="U8" pin="10" pinfunction="S2B" pintype="bidirectional"/>
     </net>
-    <net code="14" name="/Project Architecture/Connectors/J1_5" class="Default">
+    <net code="19" name="/Project Architecture/Connectors/J1_5" class="Default">
       <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="U11" pin="8" pinfunction="S2" pintype="bidirectional"/>
     </net>
-    <net code="15" name="/Project Architecture/Connectors/J1_6" class="Default">
+    <net code="20" name="/Project Architecture/Connectors/J1_6" class="Default">
       <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
     </net>
-    <net code="16" name="/Project Architecture/Connectors/J1_7" class="Default">
+    <net code="21" name="/Project Architecture/Connectors/J1_7" class="Default">
       <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
     </net>
-    <net code="17" name="/Project Architecture/Connectors/J1_8" class="Default">
+    <net code="22" name="/Project Architecture/Connectors/J1_8" class="Default">
       <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
     </net>
-    <net code="18" name="/Project Architecture/Connectors/J1_9" class="Default">
+    <net code="23" name="/Project Architecture/Connectors/J1_9" class="Default">
       <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
     </net>
-    <net code="20" name="/Project Architecture/Connectors/SDA" class="Default">
+    <net code="25" name="/Project Architecture/Connectors/RE1.A" class="Default">
+      <node ref="ENC1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="GPIO17/GPIO_GEN0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/Project Architecture/Connectors/RE1.B" class="Default">
+      <node ref="ENC1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="GPIO27/GPIO_GEN2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/Project Architecture/Connectors/RE1.C" class="Default">
+      <node ref="ENC1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="GPIO22/GPIO_GEN3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/Project Architecture/Connectors/RE2.A" class="Default">
+      <node ref="ENC2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/Project Architecture/Connectors/RE2.B" class="Default">
+      <node ref="ENC2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/Project Architecture/Connectors/RE2.C" class="Default">
+      <node ref="ENC2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="GPIO26" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/Project Architecture/Connectors/SDA" class="Default">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="SDA_3V3" pintype="output"/>
+      <node ref="U1" pin="5" pinfunction="SCL_3V3" pintype="output"/>
+      <node ref="U2" pin="3" pinfunction="GPIO2/SDA1" pintype="bidirectional"/>
       <node ref="U7" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="U9" pin="5" pinfunction="5" pintype="unspecified"/>
     </net>
-    <net code="21" name="/Project Architecture/Connectors/SDC" class="Default">
+    <net code="34" name="/Project Architecture/Connectors/SDC" class="Default">
       <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="SCL_3V3" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="GPIO3/SCL" pintype="bidirectional"/>
       <node ref="U7" pin="6" pinfunction="6" pintype="unspecified"/>
       <node ref="U9" pin="6" pinfunction="6" pintype="unspecified"/>
     </net>
-    <net code="22" name="/Project Architecture/Connectors/SFF" class="Default">
+    <net code="35" name="/Project Architecture/Connectors/SFF" class="Default">
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW2" pin="1" pintype="passive"/>
+      <node ref="U11" pin="6" pinfunction="SEL" pintype="input"/>
     </net>
-    <net code="23" name="/Project Architecture/Connectors/Stow" class="Default">
+    <net code="36" name="/Project Architecture/Connectors/Stow" class="Default">
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="27" name="/Project Architecture/Mode Selector/SFF" class="Default">
-      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="SW2" pin="1" pintype="passive"/>
-    </net>
-    <net code="28" name="/Project Architecture/Mode Selector/Stow" class="Default">
-      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="SW2" pin="3" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U10" pin="6" pinfunction="SEL2" pintype="input"/>
+      <node ref="U12" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U12" pin="6" pinfunction="SEL2" pintype="input"/>
+      <node ref="U8" pin="15" pinfunction="SEL1" pintype="input"/>
+      <node ref="U8" pin="6" pinfunction="SEL2" pintype="input"/>
     </net>
-    <net code="29" name="/Project Architecture/Motor A/+M" class="Default">
+    <net code="40" name="/Project Architecture/Motor A/+M" class="Default">
       <node ref="U7" pin="13" pinfunction="13" pintype="unspecified"/>
       <node ref="U7" pin="14" pinfunction="14" pintype="unspecified"/>
       <node ref="U7" pin="7" pinfunction="7" pintype="unspecified"/>
       <node ref="U8" pin="1" pinfunction="D1" pintype="bidirectional"/>
     </net>
-    <net code="30" name="/Project Architecture/Motor A/-M" class="Default">
+    <net code="41" name="/Project Architecture/Motor A/-M" class="Default">
       <node ref="U8" pin="9" pinfunction="D2" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/Project Architecture/Motor A/Stow" class="Default">
-      <node ref="U8" pin="15" pinfunction="SEL1" pintype="input"/>
-      <node ref="U8" pin="6" pinfunction="SEL2" pintype="input"/>
-    </net>
-    <net code="33" name="/Project Architecture/Motor Polarity Switch/+M" class="Default">
+    <net code="42" name="/Project Architecture/Motor Polarity Switch/+M" class="Default">
+      <node ref="NT1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U12" pin="1" pinfunction="D1" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/Project Architecture/Motor Polarity Switch/-M" class="Default">
+    <net code="43" name="/Project Architecture/Motor Polarity Switch/-M" class="Default">
+      <node ref="NT2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U12" pin="9" pinfunction="D2" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/Project Architecture/Motor Polarity Switch/Stow" class="Default">
-      <node ref="U12" pin="15" pinfunction="SEL1" pintype="input"/>
-      <node ref="U12" pin="6" pinfunction="SEL2" pintype="input"/>
-    </net>
-    <net code="37" name="/Project Architecture/MotorB/+M" class="Default">
+    <net code="44" name="/Project Architecture/MotorB/+MB" class="Default">
       <node ref="U10" pin="1" pinfunction="D1" pintype="bidirectional"/>
       <node ref="U9" pin="13" pinfunction="13" pintype="unspecified"/>
       <node ref="U9" pin="14" pinfunction="14" pintype="unspecified"/>
       <node ref="U9" pin="7" pinfunction="7" pintype="unspecified"/>
     </net>
-    <net code="38" name="/Project Architecture/MotorB/-M" class="Default">
+    <net code="45" name="/Project Architecture/MotorB/-MB" class="Default">
       <node ref="U10" pin="9" pinfunction="D2" pintype="bidirectional"/>
     </net>
-    <net code="39" name="/Project Architecture/MotorB/J1_[8..9]" class="Default">
+    <net code="46" name="/Project Architecture/MotorB/J1_[8..9]" class="Default">
       <node ref="U10" pin="8" pinfunction="S2A" pintype="bidirectional"/>
       <node ref="U11" pin="1" pinfunction="D" pintype="bidirectional"/>
     </net>
-    <net code="40" name="/Project Architecture/MotorB/SFF" class="Default">
-      <node ref="U11" pin="6" pinfunction="SEL" pintype="input"/>
+    <net code="47" name="/Project Architecture/Raspberrypi/PWM" class="Default">
+      <node ref="U2" pin="32" pinfunction="GPIO12" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="SEL" pintype="input"/>
     </net>
-    <net code="41" name="/Project Architecture/MotorB/Stow" class="Default">
-      <node ref="U10" pin="15" pinfunction="SEL1" pintype="input"/>
-      <node ref="U10" pin="6" pinfunction="SEL2" pintype="input"/>
-    </net>
-    <net code="42" name="GND" class="Default">
+    <net code="50" name="GND" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
       <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
       <node ref="C24" pin="2" pintype="passive"/>
       <node ref="C25" pin="2" pintype="passive"/>
       <node ref="C26" pin="2" pintype="passive"/>
       <node ref="C27" pin="2" pintype="passive"/>
       <node ref="C28" pin="2" pintype="passive"/>
       <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C30" pin="2" pintype="passive"/>
       <node ref="C31" pin="2" pintype="passive"/>
       <node ref="C32" pin="2" pintype="passive"/>
       <node ref="C33" pin="2" pintype="passive"/>
       <node ref="C34" pin="2" pintype="passive"/>
       <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="J1" pin="0" pinfunction="PAD" pintype="passive"/>
       <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
       <node ref="J11" pin="8" pinfunction="Pin_8" pintype="passive"/>
-      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
       <node ref="J3" pin="2_1" pinfunction="02" pintype="passive"/>
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="SW2" pin="2" pintype="passive"/>
       <node ref="SW2" pin="MP" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="output"/>
       <node ref="U1" pin="7" pinfunction="GND" pintype="output"/>
       <node ref="U10" pin="4" pinfunction="GND" pintype="power_out"/>
       <node ref="U11" pin="3" pinfunction="GND" pintype="power_out"/>
       <node ref="U12" pin="4" pinfunction="GND" pintype="power_out"/>
+      <node ref="U2" pin="39" pinfunction="GND_39" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_out"/>
       <node ref="U7" pin="12" pinfunction="12" pintype="unspecified"/>
       <node ref="U8" pin="4" pinfunction="GND" pintype="power_out"/>
       <node ref="U9" pin="12" pinfunction="12" pintype="unspecified"/>
     </net>
-    <net code="43" name="Net-(U7-Pad1)" class="Default">
+    <net code="51" name="Net-(U7-Pad1)" class="Default">
       <node ref="U7" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U7" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="44" name="Net-(U7-Pad8)" class="Default">
+    <net code="52" name="Net-(U7-Pad8)" class="Default">
       <node ref="U7" pin="8" pinfunction="8" pintype="unspecified"/>
       <node ref="U7" pin="9" pinfunction="9" pintype="unspecified"/>
     </net>
-    <net code="45" name="Net-(U8-VSS)" class="Default">
+    <net code="53" name="Net-(U8-VSS)" class="Default">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
       <node ref="U8" pin="3" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="46" name="Net-(U9-Pad1)" class="Default">
+    <net code="54" name="Net-(U9-Pad1)" class="Default">
       <node ref="U9" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U9" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
-    <net code="47" name="Net-(U9-Pad8)" class="Default">
+    <net code="55" name="Net-(U9-Pad8)" class="Default">
       <node ref="U9" pin="8" pinfunction="8" pintype="unspecified"/>
       <node ref="U9" pin="9" pinfunction="9" pintype="unspecified"/>
     </net>
-    <net code="48" name="Net-(U10-VSS)" class="Default">
+    <net code="56" name="Net-(U10-VSS)" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
       <node ref="U10" pin="3" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="49" name="Net-(U11-VSS)" class="Default">
+    <net code="57" name="Net-(U11-VSS)" class="Default">
       <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="U11" pin="7" pinfunction="VSS" pintype="power_out"/>
     </net>
-    <net code="50" name="Net-(U12-VSS)" class="Default">
+    <net code="58" name="Net-(U12-VSS)" class="Default">
       <node ref="C34" pin="1" pintype="passive"/>
       <node ref="C35" pin="1" pintype="passive"/>
       <node ref="U12" pin="3" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="51" name="VDD" class="Default">
+    <net code="59" name="VDD" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C32" pin="1" pintype="passive"/>
       <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="J3" pin="1_1" pinfunction="01" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="VBUS_SW" pintype="output"/>
       <node ref="U10" pin="11" pinfunction="VDD" pintype="power_in"/>
@@ -1771,151 +2484,190 @@
       <node ref="U11" pin="5" pinfunction="EN" pintype="input"/>
       <node ref="U12" pin="11" pinfunction="VDD" pintype="power_in"/>
       <node ref="U12" pin="12" pinfunction="EN" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="S" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="VSS" pintype="power_in"/>
       <node ref="U8" pin="11" pinfunction="VDD" pintype="power_in"/>
       <node ref="U8" pin="12" pinfunction="EN" pintype="input"/>
     </net>
-    <net code="52" name="unconnected-(C18-Pad1)" class="Default">
-      <node ref="C18" pin="1" pintype="passive"/>
-    </net>
-    <net code="53" name="unconnected-(C18-Pad2)" class="Default">
-      <node ref="C18" pin="2" pintype="passive"/>
-    </net>
-    <net code="54" name="unconnected-(C23-Pad1)" class="Default">
-      <node ref="C23" pin="1" pintype="passive"/>
-    </net>
-    <net code="55" name="unconnected-(C23-Pad2)" class="Default">
-      <node ref="C23" pin="2" pintype="passive"/>
-    </net>
-    <net code="56" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
+    <net code="60" name="unconnected-(J2-Pin_1-Pad1)" class="Default">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
     </net>
-    <net code="57" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
+    <net code="61" name="unconnected-(J2-Pin_2-Pad2)" class="Default">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
     </net>
-    <net code="58" name="unconnected-(J2-Pin_3-Pad3)" class="Default">
+    <net code="62" name="unconnected-(J2-Pin_3-Pad3)" class="Default">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="59" name="unconnected-(J8-Pin_1-Pad1)" class="Default">
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="63" name="unconnected-(SW3-A-Pad4)" class="Default">
+      <node ref="SW3" pin="4" pinfunction="A" pintype="passive"/>
     </net>
-    <net code="60" name="unconnected-(J8-Pin_2-Pad2)" class="Default">
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="64" name="unconnected-(SW3-K-Pad3)" class="Default">
+      <node ref="SW3" pin="3" pinfunction="K" pintype="passive"/>
     </net>
-    <net code="61" name="unconnected-(J9-Pin_1-Pad1)" class="Default">
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="62" name="unconnected-(J9-Pin_2-Pad2)" class="Default">
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="63" name="unconnected-(J10-Pin_2-Pad2)" class="Default">
-      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="64" name="unconnected-(J10-Pin_3-Pad3)" class="Default">
-      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="65" name="unconnected-(J10-Pin_4-Pad4)" class="Default">
-      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="66" name="unconnected-(J10-Pin_5-Pad5)" class="Default">
-      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
-    </net>
-    <net code="67" name="unconnected-(J10-Pin_6-Pad6)" class="Default">
-      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
-    </net>
-    <net code="68" name="unconnected-(J10-Pin_7-Pad7)" class="Default">
-      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
-    </net>
-    <net code="69" name="unconnected-(J11-Pin_2-Pad2)" class="Default">
-      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
-    </net>
-    <net code="70" name="unconnected-(J11-Pin_3-Pad3)" class="Default">
-      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="71" name="unconnected-(J11-Pin_4-Pad4)" class="Default">
-      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
-    </net>
-    <net code="72" name="unconnected-(J11-Pin_5-Pad5)" class="Default">
-      <node ref="J11" pin="5" pinfunction="Pin_5" pintype="passive"/>
-    </net>
-    <net code="73" name="unconnected-(J11-Pin_6-Pad6)" class="Default">
-      <node ref="J11" pin="6" pinfunction="Pin_6" pintype="passive"/>
-    </net>
-    <net code="74" name="unconnected-(J11-Pin_7-Pad7)" class="Default">
-      <node ref="J11" pin="7" pinfunction="Pin_7" pintype="passive"/>
-    </net>
-    <net code="75" name="unconnected-(U1-GND-Pad1)" class="Default">
-      <node ref="U1" pin="1" pinfunction="GND" pintype="output"/>
-    </net>
-    <net code="76" name="unconnected-(U1-PD_INT_3V-Pad3)" class="Default">
+    <net code="65" name="unconnected-(U1-PD_INT_3V-Pad3)" class="Default">
       <node ref="U1" pin="3" pinfunction="PD_INT_3V" pintype="output+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U1-USB_P-Pad2)" class="Default">
+    <net code="66" name="unconnected-(U1-SDA_3V3-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="SDA_3V3" pintype="output"/>
+    </net>
+    <net code="67" name="unconnected-(U1-USB_P-Pad2)" class="Default">
       <node ref="U1" pin="2" pinfunction="USB_P" pintype="output+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U1-USP_N-Pad1)" class="Default">
+    <net code="68" name="unconnected-(U1-USP_N-Pad1)" class="Default">
       <node ref="U1" pin="1" pinfunction="USP_N" pintype="output+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U7-Pad3)" class="Default">
+    <net code="69" name="unconnected-(U2-3V3_17-Pad17)" class="Default">
+      <node ref="U2" pin="17" pinfunction="3V3_17" pintype="power_in"/>
+    </net>
+    <net code="70" name="unconnected-(U2-GND_6-Pad6)" class="Default">
+      <node ref="U2" pin="6" pinfunction="GND_6" pintype="power_in"/>
+    </net>
+    <net code="71" name="unconnected-(U2-GND_9-Pad9)" class="Default">
+      <node ref="U2" pin="9" pinfunction="GND_9" pintype="power_in"/>
+    </net>
+    <net code="72" name="unconnected-(U2-GND_14-Pad14)" class="Default">
+      <node ref="U2" pin="14" pinfunction="GND_14" pintype="power_in"/>
+    </net>
+    <net code="73" name="unconnected-(U2-GND_20-Pad20)" class="Default">
+      <node ref="U2" pin="20" pinfunction="GND_20" pintype="power_in"/>
+    </net>
+    <net code="74" name="unconnected-(U2-GND_25-Pad25)" class="Default">
+      <node ref="U2" pin="25" pinfunction="GND_25" pintype="power_in"/>
+    </net>
+    <net code="75" name="unconnected-(U2-GND_30-Pad30)" class="Default">
+      <node ref="U2" pin="30" pinfunction="GND_30" pintype="power_in"/>
+    </net>
+    <net code="76" name="unconnected-(U2-GND_34-Pad34)" class="Default">
+      <node ref="U2" pin="34" pinfunction="GND_34" pintype="power_in"/>
+    </net>
+    <net code="77" name="unconnected-(U2-GPIO4/GPIO_GCLK-Pad7)" class="Default">
+      <node ref="U2" pin="7" pinfunction="GPIO4/GPIO_GCLK" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U2-GPIO7/SPI_~{CE1}-Pad26)" class="Default">
+      <node ref="U2" pin="26" pinfunction="GPIO7/SPI_~{CE1}" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U2-GPIO8/SPI_~{CE0}-Pad24)" class="Default">
+      <node ref="U2" pin="24" pinfunction="GPIO8/SPI_~{CE0}" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U2-GPIO9/SPI_MISO-Pad21)" class="Default">
+      <node ref="U2" pin="21" pinfunction="GPIO9/SPI_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U2-GPIO10/SPI_MOSI-Pad19)" class="Default">
+      <node ref="U2" pin="19" pinfunction="GPIO10/SPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="unconnected-(U2-GPIO11/SPI_SCLK-Pad23)" class="Default">
+      <node ref="U2" pin="23" pinfunction="GPIO11/SPI_SCLK" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="unconnected-(U2-GPIO13-Pad33)" class="Default">
+      <node ref="U2" pin="33" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="unconnected-(U2-GPIO14/TXD0-Pad8)" class="Default">
+      <node ref="U2" pin="8" pinfunction="GPIO14/TXD0" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="unconnected-(U2-GPIO15/RXD0-Pad10)" class="Default">
+      <node ref="U2" pin="10" pinfunction="GPIO15/RXD0" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="unconnected-(U2-GPIO16-Pad36)" class="Default">
+      <node ref="U2" pin="36" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(U2-GPIO18/GPIO_GEN1-Pad12)" class="Default">
+      <node ref="U2" pin="12" pinfunction="GPIO18/GPIO_GEN1" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(U2-GPIO19-Pad35)" class="Default">
+      <node ref="U2" pin="35" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U2-GPIO20-Pad38)" class="Default">
+      <node ref="U2" pin="38" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U2-GPIO21-Pad40)" class="Default">
+      <node ref="U2" pin="40" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="unconnected-(U2-GPIO23/GPIO_GEN4-Pad16)" class="Default">
+      <node ref="U2" pin="16" pinfunction="GPIO23/GPIO_GEN4" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="unconnected-(U2-GPIO24/GPIO_GEN5-Pad18)" class="Default">
+      <node ref="U2" pin="18" pinfunction="GPIO24/GPIO_GEN5" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="unconnected-(U2-GPIO25/GPIO_GEN6-Pad22)" class="Default">
+      <node ref="U2" pin="22" pinfunction="GPIO25/GPIO_GEN6" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="unconnected-(U2-ID_SC-Pad28)" class="Default">
+      <node ref="U2" pin="28" pinfunction="ID_SC" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="unconnected-(U2-ID_SD-Pad27)" class="Default">
+      <node ref="U2" pin="27" pinfunction="ID_SD" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="unconnected-(U3-NC-Pad2)" class="Default">
+      <node ref="U3" pin="2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3-NC-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-NC/GND-Pad9)" class="Default">
+      <node ref="U3" pin="9" pinfunction="NC/GND" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="unconnected-(U7-Pad3)" class="Default">
       <node ref="U7" pin="3" pinfunction="3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U7-Pad4)" class="Default">
+    <net code="100" name="unconnected-(U7-Pad4)" class="Default">
       <node ref="U7" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U7-Pad10)" class="Default">
+    <net code="101" name="unconnected-(U7-Pad10)" class="Default">
       <node ref="U7" pin="10" pinfunction="10" pintype="unspecified+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U8-EPAD-Pad17)" class="Default">
+    <net code="102" name="unconnected-(U8-EPAD-Pad17)" class="Default">
       <node ref="U8" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U8-NC-Pad5)" class="Default">
+    <net code="103" name="unconnected-(U8-NC-Pad5)" class="Default">
       <node ref="U8" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="84" name="unconnected-(U8-NC-Pad7)" class="Default">
+    <net code="104" name="unconnected-(U8-NC-Pad7)" class="Default">
       <node ref="U8" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="85" name="unconnected-(U8-NC-Pad13)" class="Default">
+    <net code="105" name="unconnected-(U8-NC-Pad13)" class="Default">
       <node ref="U8" pin="13" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="86" name="unconnected-(U8-NC-Pad14)" class="Default">
+    <net code="106" name="unconnected-(U8-NC-Pad14)" class="Default">
       <node ref="U8" pin="14" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="87" name="unconnected-(U9-Pad3)" class="Default">
+    <net code="107" name="unconnected-(U9-Pad3)" class="Default">
       <node ref="U9" pin="3" pinfunction="3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="88" name="unconnected-(U9-Pad4)" class="Default">
+    <net code="108" name="unconnected-(U9-Pad4)" class="Default">
       <node ref="U9" pin="4" pinfunction="4" pintype="unspecified+no_connect"/>
     </net>
-    <net code="89" name="unconnected-(U9-Pad10)" class="Default">
+    <net code="109" name="unconnected-(U9-Pad10)" class="Default">
       <node ref="U9" pin="10" pinfunction="10" pintype="unspecified+no_connect"/>
     </net>
-    <net code="90" name="unconnected-(U10-EPAD-Pad17)" class="Default">
+    <net code="110" name="unconnected-(U10-EPAD-Pad17)" class="Default">
       <node ref="U10" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
     </net>
-    <net code="91" name="unconnected-(U10-NC-Pad5)" class="Default">
+    <net code="111" name="unconnected-(U10-NC-Pad5)" class="Default">
       <node ref="U10" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="92" name="unconnected-(U10-NC-Pad7)" class="Default">
+    <net code="112" name="unconnected-(U10-NC-Pad7)" class="Default">
       <node ref="U10" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="93" name="unconnected-(U10-NC-Pad13)" class="Default">
+    <net code="113" name="unconnected-(U10-NC-Pad13)" class="Default">
       <node ref="U10" pin="13" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="94" name="unconnected-(U10-NC-Pad14)" class="Default">
+    <net code="114" name="unconnected-(U10-NC-Pad14)" class="Default">
       <node ref="U10" pin="14" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="95" name="unconnected-(U12-EPAD-Pad17)" class="Default">
+    <net code="115" name="unconnected-(U12-EPAD-Pad17)" class="Default">
       <node ref="U12" pin="17" pinfunction="EPAD" pintype="unspecified+no_connect"/>
     </net>
-    <net code="96" name="unconnected-(U12-NC-Pad5)" class="Default">
+    <net code="116" name="unconnected-(U12-NC-Pad5)" class="Default">
       <node ref="U12" pin="5" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="97" name="unconnected-(U12-NC-Pad7)" class="Default">
+    <net code="117" name="unconnected-(U12-NC-Pad7)" class="Default">
       <node ref="U12" pin="7" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="98" name="unconnected-(U12-NC-Pad13)" class="Default">
+    <net code="118" name="unconnected-(U12-NC-Pad13)" class="Default">
       <node ref="U12" pin="13" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="99" name="unconnected-(U12-NC-Pad14)" class="Default">
+    <net code="119" name="unconnected-(U12-NC-Pad14)" class="Default">
       <node ref="U12" pin="14" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
