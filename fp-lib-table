@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PINA745AIRELR")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PINA745AIRELR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "PTMUX6236RUMR")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PTMUX6236RUMR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TMUX7201RQXR")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_TMUX7201RQXR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "TMUX7219MDGKR")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_TMUX7219MDGKR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "NKKSWITCHES_D22022LB")(type "KiCad")(uri "C:/dev/work/misc/albmlb/alb-mlb/NKKSWITCHES_D22022LB")(options "")(descr "")(disabled))
+  (lib (name "M2025LL2W13")(type "KiCad")(uri "C:/dev/work/misc/albmlb/alb-mlb/NKKSWITCHES_M2025LL2W13")(options "")(descr "")(disabled))
+  (lib (name "pictures")(type "KiCad")(uri "${KIPRJMOD}/lib/SC1176")(options "")(descr ""))
+)

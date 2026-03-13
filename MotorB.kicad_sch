@@ -5,18 +5,19 @@
 	(uuid "a52b273b-3b2a-4441-aae1-014e4e68c902")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "PCM_4ms_Capacitor:0.1uF_0603_16V"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 1.905 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -24,17 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Value" "0.1uF_0603_16V"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -42,7 +34,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Footprint" "4ms_Capacitor:C_0603"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -51,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
 				(at 0 0 0)
 				(effects
 					(font
@@ -60,7 +62,55 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "AVX Corporation"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "0603YC104KAT2A"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "0.1uF"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C14663"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "100nF_0603_16V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -78,147 +128,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:C_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
+			(symbol "0.1uF_0603_16V_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -244,7 +154,193 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "0.1uF_0603_16V_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_4ms_Capacitor:10uF_1206_35V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF_1206_35V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "4ms_Capacitor:C_1206"
+				(at -2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF, X6S, Min 35V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Specifications" "10uF, X6S, Min 35V"
+				(at -2.54 -7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at -2.54 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "C3216X6S1V106K160AC"
+				(at -2.54 -10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Display" "10uF"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "JLCPCB ID" "C13585"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "10uF_1206_35V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10uF_1206_35V_1_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -501,7 +597,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
+			(property "Reference" "U"
 				(at 20.32 10.16 0)
 				(effects
 					(font
@@ -621,10 +717,10 @@
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
-					(name "SH+"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,10 +735,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 7.62)
-					(name "IN+"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -657,10 +753,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 7.62)
-					(name "A1"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -675,10 +771,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -7.62 0)
 					(length 7.62)
-					(name "A0"
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -693,10 +789,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -10.16 0)
 					(length 7.62)
-					(name "SDA"
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -711,10 +807,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -12.7 0)
 					(length 7.62)
-					(name "SDC"
+					(name "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -732,7 +828,7 @@
 				(pin unspecified line
 					(at 0 -15.24 0)
 					(length 7.62)
-					(name "IS-"
+					(name "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,7 +846,7 @@
 				(pin unspecified line
 					(at 40.64 0 180)
 					(length 7.62)
-					(name "IS+"
+					(name "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -768,7 +864,7 @@
 				(pin unspecified line
 					(at 40.64 -2.54 180)
 					(length 7.62)
-					(name "VBUS"
+					(name "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -786,7 +882,7 @@
 				(pin unspecified line
 					(at 40.64 -5.08 180)
 					(length 7.62)
-					(name "GND"
+					(name "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -804,7 +900,7 @@
 				(pin unspecified line
 					(at 40.64 -7.62 180)
 					(length 7.62)
-					(name "VS"
+					(name "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -822,7 +918,7 @@
 				(pin unspecified line
 					(at 40.64 -10.16 180)
 					(length 7.62)
-					(name "ALERT"
+					(name "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -840,7 +936,7 @@
 				(pin unspecified line
 					(at 40.64 -12.7 180)
 					(length 7.62)
-					(name "IN-"
+					(name "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -858,7 +954,7 @@
 				(pin unspecified line
 					(at 40.64 -15.24 180)
 					(length 7.62)
-					(name "SH-"
+					(name "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2096,12 +2192,6 @@
 		(uuid "85bb85a0-d399-4e66-a92f-4226a7f306c2")
 	)
 	(junction
-		(at 30.48 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b829213c-356c-470f-aeea-bd2728ea8642")
-	)
-	(junction
 		(at 40.64 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2120,16 +2210,22 @@
 		(uuid "c303614f-1248-4443-9061-4e1b055bff0a")
 	)
 	(junction
+		(at 30.48 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "caa6ef3a-b7e3-4165-963e-48520829875d")
+	)
+	(junction
+		(at 30.48 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d80c3176-f142-4704-bce7-252712587b7c")
+	)
+	(junction
 		(at 168.91 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efcff019-e772-4c2c-a59f-07f3aacb124b")
-	)
-	(junction
-		(at 30.48 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8cb5063-8f15-4d0e-b014-52eea72d0b1d")
 	)
 	(no_connect
 		(at 81.28 66.04)
@@ -2164,15 +2260,6 @@
 			(type default)
 		)
 		(uuid "3502c80f-6061-44c7-bf13-76236aa28834")
-	)
-	(bus_entry
-		(at 73.66 121.92)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6310548e-2e73-4aa8-85ee-7844b179a270")
 	)
 	(bus_entry
 		(at 50.8 167.64)
@@ -2229,6 +2316,24 @@
 		(uuid "99cd7a3e-3a68-4893-8714-178ad18a32c5")
 	)
 	(bus_entry
+		(at 73.66 171.45)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8fbaf6-7d2a-4dd4-bf5b-9bc0884b366d")
+	)
+	(bus_entry
+		(at 73.66 176.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace832f1-d4d1-405d-bb2e-e8862bd9a5f6")
+	)
+	(bus_entry
 		(at 50.8 175.26)
 		(size -2.54 2.54)
 		(stroke
@@ -2236,15 +2341,6 @@
 			(type default)
 		)
 		(uuid "baf5194d-cde3-4c6c-8f30-bea143da08c9")
-	)
-	(bus_entry
-		(at 73.66 119.38)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de15a838-2bdb-48ab-8af8-21b767603a67")
 	)
 	(bus
 		(pts
@@ -2316,25 +2412,35 @@
 		)
 		(uuid "1dec0daa-9a5b-4322-a46d-512249ee727d")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 21.59 63.5) (xy 30.48 63.5)
+			(xy 73.66 171.45) (xy 74.93 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ed25b8b-15cd-4f95-b0be-c232350c4e19")
+		(uuid "1faffe76-fcbf-4cba-b6eb-b1a0b04fc658")
 	)
 	(wire
 		(pts
-			(xy 21.59 71.12) (xy 30.48 71.12)
+			(xy 22.86 69.85) (xy 30.48 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "215077e3-bc88-4563-b61e-d79c31a651fd")
+	)
+	(bus
+		(pts
+			(xy 73.66 171.45) (xy 73.66 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f06c1e-cd0d-4f85-b4cb-a881d49e0573")
 	)
 	(bus
 		(pts
@@ -2466,6 +2572,16 @@
 		)
 		(uuid "56fd7c6a-e305-4555-8d84-4d89c88a14eb")
 	)
+	(wire
+		(pts
+			(xy 71.12 179.07) (xy 66.04 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57e41535-e975-410b-9838-7c81a63c44ff")
+	)
 	(bus
 		(pts
 			(xy 50.8 144.78) (xy 50.8 146.05)
@@ -2475,26 +2591,6 @@
 			(type default)
 		)
 		(uuid "5a244993-05c3-4999-903b-521be81d3b17")
-	)
-	(wire
-		(pts
-			(xy 66.04 121.92) (xy 71.12 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8da8b9-6630-4435-9d0b-a162713aa41f")
-	)
-	(bus
-		(pts
-			(xy 73.66 121.92) (xy 73.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "611e2835-5031-4643-81ff-e31d561516fc")
 	)
 	(wire
 		(pts
@@ -2585,6 +2681,26 @@
 			(type default)
 		)
 		(uuid "6dd5718e-c8c5-4ea0-884b-1dfb197adf99")
+	)
+	(wire
+		(pts
+			(xy 63.5 173.99) (xy 71.12 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed970ae-8dee-4fde-945a-81b93de82b26")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 34.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7194e7b8-8785-4cea-852c-db865f48cb3b")
 	)
 	(wire
 		(pts
@@ -2728,36 +2844,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 124.46) (xy 66.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad225853-76b0-48f0-90f8-6648c755505b")
-	)
-	(bus
-		(pts
-			(xy 73.66 119.38) (xy 74.93 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b705b3-4603-4505-9e52-93a41cd7c451")
-	)
-	(bus
-		(pts
-			(xy 74.93 118.11) (xy 76.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b19dcc09-80f7-4706-bbef-047257aa9566")
-	)
-	(wire
-		(pts
 			(xy 200.66 101.6) (xy 205.74 101.6)
 		)
 		(stroke
@@ -2775,6 +2861,16 @@
 			(type default)
 		)
 		(uuid "b646d892-9d83-46b3-9a83-b4a5cd41221d")
+	)
+	(bus
+		(pts
+			(xy 74.93 170.18) (xy 76.2 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92af726-736f-4345-a2ce-912a7c9d8617")
 	)
 	(wire
 		(pts
@@ -2828,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 68.58) (xy 34.29 71.12)
+			(xy 36.83 68.58) (xy 34.29 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2848,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 66.04) (xy 34.29 63.5)
+			(xy 36.83 66.04) (xy 34.29 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2876,6 +2972,16 @@
 		)
 		(uuid "d32a917f-cde4-4efe-aa37-3ba986bfc2c3")
 	)
+	(wire
+		(pts
+			(xy 30.48 69.85) (xy 34.29 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72df417-4953-4631-82cb-6d08c0380b43")
+	)
 	(bus
 		(pts
 			(xy 50.8 170.18) (xy 50.8 167.64)
@@ -2895,16 +3001,6 @@
 			(type default)
 		)
 		(uuid "ddadfc5e-d988-40b8-a542-40744726eb96")
-	)
-	(wire
-		(pts
-			(xy 34.29 63.5) (xy 30.48 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df25d437-328c-4a57-89a7-912886594804")
 	)
 	(bus
 		(pts
@@ -2928,16 +3024,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 34.29 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bc36da-9741-4e8d-9d1f-2d37059e9ccb")
-	)
-	(wire
-		(pts
 			(xy 44.45 116.84) (xy 48.26 116.84)
 		)
 		(stroke
@@ -2945,16 +3031,6 @@
 			(type default)
 		)
 		(uuid "ea9a668d-081d-4fdf-a195-ffdd9da70625")
-	)
-	(bus
-		(pts
-			(xy 73.66 119.38) (xy 73.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec57e354-b3c1-48cb-8e78-0ba3f3f2a067")
 	)
 	(wire
 		(pts
@@ -2975,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "f864e1ac-8616-4929-959b-4048a7c32aec")
+	)
+	(wire
+		(pts
+			(xy 25.4 64.77) (xy 30.48 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f950bff7-416d-4410-ab57-00cea4936fcb")
 	)
 	(label "J1_8"
 		(at 208.28 93.98 180)
@@ -3006,16 +3092,6 @@
 		)
 		(uuid "204b9d64-4874-4832-842a-3c344b12cce4")
 	)
-	(label "+M"
-		(at 34.29 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "210d71dd-707f-463d-9a11-0432c47ff0df")
-	)
 	(label "SFF"
 		(at 43.18 147.32 0)
 		(effects
@@ -3025,6 +3101,36 @@
 			(justify left bottom)
 		)
 		(uuid "3179ecca-97f6-419b-8bb5-b27e5ed69acc")
+	)
+	(label "-MB"
+		(at 66.04 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d965325-c7fa-4330-9dad-b166af7e79c9")
+	)
+	(label "+MB"
+		(at 63.5 173.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "540ab879-693c-4c9e-8e89-eb3df8a433f7")
+	)
+	(label "-MB"
+		(at 104.14 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "541ee227-8c23-49a0-aad8-c7ac0c7d7160")
 	)
 	(label "SDA"
 		(at 87.63 71.12 180)
@@ -3036,25 +3142,15 @@
 		)
 		(uuid "5a2453af-0f5a-46b9-a064-327175419e93")
 	)
-	(label "+M"
-		(at 66.04 121.92 0)
+	(label ""
+		(at 76.2 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "6424727c-466b-4902-aeb1-39591ba4e307")
-	)
-	(label "+M"
-		(at 104.14 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6cb84273-4eb4-47d9-a524-8f01fd52bae2")
+		(uuid "5bc1e68c-2947-4c61-bc59-664865fce139")
 	)
 	(label "SFF"
 		(at 248.92 96.52 0)
@@ -3086,26 +3182,6 @@
 		)
 		(uuid "9e828bca-f6cc-47ac-8d9e-102600e1ec1d")
 	)
-	(label "-M"
-		(at 104.14 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a37a2c8f-09cb-40e1-97b3-ed60cbd2ae97")
-	)
-	(label "-M"
-		(at 66.04 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4a3c229-42f8-417e-b4f0-de3fd4306084")
-	)
 	(label "Stow"
 		(at 160.02 76.2 180)
 		(effects
@@ -3116,6 +3192,16 @@
 		)
 		(uuid "b1a7a656-c10b-4d2c-bfb0-a6a9981f8d0a")
 	)
+	(label "+MB"
+		(at 104.14 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc433ccd-f1ec-4ba5-8437-f49d85c9c3f2")
+	)
 	(label "SDA"
 		(at 44.45 116.84 0)
 		(effects
@@ -3125,6 +3211,16 @@
 			(justify left bottom)
 		)
 		(uuid "c82e01ce-329f-45ed-bd9c-769bab97fbe6")
+	)
+	(label "+MB"
+		(at 34.29 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb2239dc-143e-450e-a314-544e775a433c")
 	)
 	(label "J1_9"
 		(at 248.92 91.44 0)
@@ -3227,17 +3323,6 @@
 		)
 		(uuid "0f8eedc8-ec9c-4804-8a18-8d884ef09132")
 	)
-	(hierarchical_label "{+M -M}"
-		(shape input)
-		(at 76.2 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3283196f-e64a-4ab0-98ec-be8f02d05e50")
-	)
 	(hierarchical_label "J1_[5..9]"
 		(shape bidirectional)
 		(at 53.34 162.56 0)
@@ -3260,8 +3345,19 @@
 		)
 		(uuid "8ee8d793-51f8-4570-8300-050a90ad24a2")
 	)
+	(hierarchical_label "{+MB -MB}"
+		(shape bidirectional)
+		(at 76.2 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8f53c21-6075-48e5-89e8-d0e5edcab586")
+	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V")
 		(at 262.89 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -3288,12 +3384,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 262.89 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 265.43 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3306,7 +3403,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 262.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 265.43 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 265.43 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 265.43 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 260.35 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 261.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 262.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -3423,7 +3586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC8_DGK_TEX"
+		(property "Footprint" "TMUX7219MDGKR:SOIC8_DGK_TEX"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -3433,7 +3596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "TMUX7219MDGKR"
+		(property "Datasheet" "https://www.ti.com/document-viewer/tmux7219m/datasheet"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -3444,6 +3607,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 208.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -3486,7 +3667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_4ms_Capacitor:10uF_1206_35V")
 		(at 30.48 67.31 0)
 		(mirror y)
 		(unit 1)
@@ -3494,10 +3675,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "40fb2e9c-7de3-4466-aa5b-ac02177d6b74")
 		(property "Reference" "C23"
-			(at 26.67 66.0399 0)
+			(at 31.75 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,8 +3685,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 26.67 68.5799 0)
+		(property "Value" "10uF_1206_35V"
+			(at 39.37 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.5148 71.12 0)
 			(effects
 				(font
@@ -3532,7 +3712,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10uF, X6S, Min 35V"
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, X6S, Min 35V"
+			(at 33.02 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 33.02 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3216X6S1V106K160AC"
+			(at 33.02 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF"
+			(at 33.02 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C13585"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Config" ""
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 30.48 67.31 0)
 			(effects
 				(font
@@ -3622,7 +3868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:10uF_1206_35V")
 		(at 267.97 96.52 0)
 		(mirror y)
 		(unit 1)
@@ -3649,12 +3895,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 267.97 96.52 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 270.51 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3667,7 +3914,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF, X6S, Min 35V"
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, X6S, Min 35V"
+			(at 270.51 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 270.51 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3216X6S1V106K160AC"
+			(at 270.51 107.442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF"
+			(at 274.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C13585"
+			(at 276.86 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Config" ""
+			(at 267.97 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 267.97 96.52 0)
 			(effects
 				(font
@@ -3692,7 +4005,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V")
 		(at 162.56 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -3719,12 +4032,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3737,7 +4051,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 165.1 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 165.1 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 165.1 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 160.02 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 162.56 104.14 0)
 			(effects
 				(font
@@ -3763,7 +4143,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:+5V")
-		(at 21.59 71.12 0)
+		(at 22.86 69.85 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3772,7 +4152,7 @@
 		(dnp no)
 		(uuid "633a930d-8747-45be-90d0-656cea6c8ddd")
 		(property "Reference" "#PWR047"
-			(at 21.59 74.93 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3781,7 +4161,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.59 73.66 0)
+			(at 20.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +4169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 71.12 0)
+			(at 22.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 71.12 0)
+			(at 22.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +4187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 71.12 0)
+			(at 22.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +4274,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V")
 		(at 162.56 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3920,12 +4300,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 165.1 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3938,7 +4319,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 165.1 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 165.1 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 165.1 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 160.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 162.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 162.56 109.22 0)
 			(effects
 				(font
@@ -3963,7 +4410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:0.1uF_0603_16V")
 		(at 205.74 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -3990,12 +4437,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 205.74 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 203.2 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4008,7 +4456,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "0.1uF, Min. 16V 10%, X7R or X5R or similar"
+			(at 203.2 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "AVX Corporation"
+			(at 203.2 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "0603YC104KAT2A"
+			(at 203.2 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "0.1uF"
+			(at 207.645 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C14663"
+			(at 207.01 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 205.74 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 205.74 99.06 0)
 			(effects
 				(font
@@ -4100,7 +4614,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:10uF_1206_35V")
 		(at 168.91 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -4127,12 +4641,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 104.14 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 171.45 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4145,7 +4660,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF, X6S, Min 35V"
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, X6S, Min 35V"
+			(at 171.45 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 171.45 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3216X6S1V106K160AC"
+			(at 171.45 115.062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF"
+			(at 176.53 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C13585"
+			(at 179.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Config" ""
+			(at 168.91 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 168.91 104.14 0)
 			(effects
 				(font
@@ -4170,7 +4751,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:10uF_1206_35V")
 		(at 168.91 109.22 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4196,12 +4777,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 109.22 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 171.45 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4214,7 +4796,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF, X6S, Min 35V"
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, X6S, Min 35V"
+			(at 171.45 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 171.45 99.822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3216X6S1V106K160AC"
+			(at 171.45 98.298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF"
+			(at 175.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C13585"
+			(at 177.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Config" ""
+			(at 168.91 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -4265,7 +4913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "REL0014A_PINA745AIRELR_TEX"
+		(property "Footprint" "PINA745AIRELR:REL0014A_PINA745AIRELR_TEX"
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -4286,6 +4934,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 81.28 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 81.28 60.96 0)
 			(effects
 				(font
@@ -4437,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "WQFN16_RUM_TEX"
+		(property "Footprint" "PTMUX6236RUMR:WQFN16_RUM_TEX"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -4447,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "PTMUX6236RUMR"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tmux6236"
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -4458,6 +5124,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 154.94 71.12 0)
 			(effects
 				(font
@@ -4595,7 +5279,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 21.59 63.5 0)
+		(at 25.4 64.77 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4604,7 +5288,7 @@
 		(dnp no)
 		(uuid "deada33b-fcee-4d3b-988a-5a5e1854c991")
 		(property "Reference" "#PWR046"
-			(at 21.59 69.85 0)
+			(at 25.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +5297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 21.59 60.96 0)
+			(at 22.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +5305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 63.5 0)
+			(at 25.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +5314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 63.5 0)
+			(at 25.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +5323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 63.5 0)
+			(at 25.4 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +5410,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "PCM_4ms_Capacitor:10uF_1206_35V")
 		(at 200.66 99.06 0)
 		(mirror x)
 		(unit 1)
@@ -4753,12 +5437,13 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 99.06 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 198.12 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4771,7 +5456,73 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10uF, X6S, Min 35V"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "10uF, X6S, Min 35V"
+			(at 198.12 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 198.12 89.662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "C3216X6S1V106K160AC"
+			(at 198.12 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Display" "10uF"
+			(at 194.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "JLCPCB ID" "C13585"
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Config" ""
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 200.66 99.06 0)
 			(effects
 				(font

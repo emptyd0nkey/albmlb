@@ -265,7 +265,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "bus_to_net_conflict|495300|698500|61b84e13-ed93-4e1f-8d76-3ff653597a43|72e01fe2-3f58-401c-ad5f-4e93adbb3f7b|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2||",
+        ""
+      ],
+      [
+        "hier_label_mismatch|469900|1054100|d78c37fc-fa68-40bc-93cc-784b025eae9e|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2|",
+        ""
+      ],
+      [
+        "hier_label_mismatch|495300|1130300|d78c37fc-fa68-40bc-93cc-784b025eae9f|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/dee490d9-a515-44e7-bb66-1f73103bbfe2|",
+        ""
+      ],
+      [
+        "pin_not_connected|1668588|1103527|bb17ee4c-054c-42d4-b034-19ef691b082c|00000000-0000-0000-0000-000000000000|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb|/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/2fe83b79-d753-4dcf-9f39-3fcfeb31ecdb|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -286,7 +303,7 @@
       ],
       [
         0,
-        2,
+        0,
         0,
         1,
         0,
@@ -470,7 +487,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -869,9 +886,9 @@
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
-      "keep_line_breaks": false,
-      "keep_tabs": false,
-      "name": "CSV",
+      "keep_line_breaks": true,
+      "keep_tabs": true,
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -920,7 +937,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -932,7 +949,7 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -945,14 +962,74 @@
           "label": "Config",
           "name": "Config",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB ID",
+          "name": "JLCPCB ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Specifications",
+          "name": "Specifications",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Display",
+          "name": "Display",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number 2",
+          "name": "Part Number 2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer 2",
+          "name": "Manufacturer 2",
+          "show": false
         }
       ],
-      "filter_string": "",
-      "group_symbols": true,
+      "filter_string": "C",
+      "group_symbols": false,
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1046,6 +1123,18 @@
     [
       "4a6c7bfc-faeb-47ef-8e4b-cc2c9493c444",
       "Mode Selector"
+    ],
+    [
+      "e020a81d-84f3-4644-80d6-529a40250d25",
+      "Raspberrypi"
+    ],
+    [
+      "fd9718c7-2858-4d15-8d37-8523778a7e8b",
+      "AlbMlb test harnes"
+    ],
+    [
+      "386223a5-2386-4f54-bc7e-fb4b7cf4dee5",
+      "encoders"
     ]
   ],
   "text_variables": {

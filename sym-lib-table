@@ -6,4 +6,6 @@
   (lib (name "ptmux6236")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PTMUX6236RUMR/KiCADv6/2026-01-05_19-52-49.kicad_sym")(options "")(descr ""))
   (lib (name "pina745a")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PINA745AIRELR/KiCADv6/2026-01-07_16-37-35.kicad_sym")(options "")(descr ""))
   (lib (name "tmux7219")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_TMUX7219MDGKR/KiCADv6/2026-01-05_20-58-12.kicad_sym")(options "")(descr ""))
+  (lib (name "pi")(type "KiCad")(uri "${KIPRJMOD}/lib/SC1176/SC1176.kicad_sym")(options "")(descr ""))
+  (lib (name "pec12r")(type "KiCad")(uri "${KIPRJMOD}/lib/ul_PEC12R-4215F-S0024/KiCADv6/2026-03-12_20-07-11.kicad_sym")(options "")(descr ""))
 )
