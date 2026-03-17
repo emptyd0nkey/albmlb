@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 5.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|152908000|95070806|1f7fc6c7-8021-4baa-8bad-1254ddd92179|e82bdfa8-b80d-4cae-bead-c5bc7dc3869c",
+          ""
+        ],
+        [
+          "clearance|153924000|95070806|1f7fc6c7-8021-4baa-8bad-1254ddd92179|7828c633-a912-4c71-96cf-ba9b7f105a96",
+          ""
+        ],
+        [
+          "clearance|157657800|107340400|0686d02b-c6fe-4abf-8720-96d17eaa85ea|e12879e8-3845-40ca-9e1d-9bff46bb34e9",
+          ""
+        ],
+        [
+          "clearance|162560000|107340400|40e5a9b0-5000-4dc9-ab63-76850a97e754|1bd8eb3f-513c-4cef-932c-5bf3f6711c89",
+          ""
+        ],
+        [
+          "shorting_items|146611800|106482900|07c9c779-15c3-4ea0-a488-35db39fb0e41|def57785-fad7-4ec7-8329-d7577e9a8caa",
+          ""
+        ],
+        [
+          "shorting_items|146612800|106483900|12f646be-0805-4637-a0f7-6bbed792578c|def57785-fad7-4ec7-8329-d7577e9a8caa",
+          ""
+        ],
+        [
+          "shorting_items|153400379|94216350|1f7fc6c7-8021-4baa-8bad-1254ddd92179|5c53f27e-409b-49db-9540-b80fed9ad673",
+          ""
+        ],
+        [
+          "shorting_items|153822400|105918000|91d54dbf-eb60-44b3-88a8-8e45c1a18cef|cfa0433d-ef65-4ed2-91b3-0b5f5272bd8b",
+          ""
+        ],
+        [
+          "shorting_items|154025600|107340400|55cf04af-ce28-40be-9aaf-7e4fabcf5596|595a2e43-2151-4916-b82b-d8d8af8a8344",
+          ""
+        ],
+        [
+          "shorting_items|161188400|87244600|d12ce597-d775-4926-a00b-cd7e72dd55d3|e68c27ea-7bc9-4082-b710-c7b801398061",
+          ""
+        ],
+        [
+          "shorting_items|162729799|107362899|1bd8eb3f-513c-4cef-932c-5bf3f6711c89|67edc502-bb6d-494e-8f5d-6ded63fc9dfe",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
