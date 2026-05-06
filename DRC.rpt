@@ -1,0 +1,780 @@
+** Drc report for proalbmlb.kicad_pcb **
+** Created on 2026-03-18T09:46:24-0600 **
+
+** Found 180 DRC violations **
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Polarity Switch/+M and /Project Architecture/Connectors/+M)
+    Local override; error
+    @(146.6128 mm, 106.4839 mm): Pad 2 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(146.1128 mm, 106.4839 mm): Pad 1 [+VDC] of U12 on L1 (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1000 mm)
+    Rule: netclass 'Default'; error
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(147.1128 mm, 106.4839 mm): Pad 3 [Net-(U12-VSS)] of U12 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1250 mm)
+    Rule: Minimum Trace Width and Spacing (outer layer); error
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(147.1128 mm, 106.4839 mm): Track [Net-(U12-VSS)] on L1 (Sig, PWR), length 0.9896 mm
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1902 mm)
+    Rule: Minimum Trace Width and Spacing (outer layer); error
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(145.8976 mm, 106.4768 mm): Track [+VDC] on L1 (Sig, PWR), length 0.2155 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Polarity Switch/+M and /Project Architecture/Connectors/+M)
+    Local override; error
+    @(145.1925 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 1.4193 mm
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (rule 'via to track clearance' clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: via to track clearance; error
+    @(145.1925 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 1.4193 mm
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Polarity Switch/+M and /Project Architecture/Connectors/+M)
+    Local override; error
+    @(146.6118 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.0014 mm
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (rule 'via to track clearance' clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: via to track clearance; error
+    @(146.6118 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.0014 mm
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (rule 'PTH to Track clearance' clearance 0.3300 mm; actual 0.0000 mm)
+    Rule: PTH to Track clearance; error
+    @(154.0256 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 0.2155 mm
+    @(153.8732 mm, 107.1788 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J4
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1120 mm)
+    Rule: netclass 'Default'; error
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(144.9253 mm, 104.7964 mm): Pad 15 [/Project Architecture/Connectors/Stow] of U12 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.1370 mm)
+    Rule: Minimum Trace Width and Spacing (outer layer); error
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(144.1664 mm, 104.7964 mm): Track [/Project Architecture/Connectors/Stow] on L1 (Sig, PWR), length 0.7589 mm
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/+M and /Project Architecture/Motor Polarity Switch/+M)
+    Local override; error
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(144.9253 mm, 105.2964 mm): Pad 16 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+[hole_clearance]: Hole clearance violation (rule 'via to track clearance' clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: via to track clearance; error
+    @(161.1884 mm, 98.7552 mm): Track [/Project Architecture/Connectors/-MB] on L2 (GND), length 11.7856 mm
+    @(161.1884 mm, 86.9696 mm): Via [/Project Architecture/MotorB/-MB] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/+M and /Project Architecture/Motor Polarity Switch/+M)
+    Local override; error
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(144.9324 mm, 105.3084 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.9144 mm
+[hole_clearance]: Hole clearance violation (rule 'via to track clearance' clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: via to track clearance; error
+    @(144.9324 mm, 105.3084 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.9144 mm
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/+MB and /Project Architecture/MotorB/+MB)
+    Local override; error
+    @(153.4160 mm, 102.9716 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 3.9624 mm
+    @(153.4004 mm, 99.1185 mm): Pad 14 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/+MB and )
+    Local override; error
+    @(153.4160 mm, 102.9716 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 3.9624 mm
+    @(154.1528 mm, 99.5250 mm): Polygon [<no net>] of U9 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (innner layer)' clearance 0.2000 mm; actual 0.1321 mm)
+    Rule: Minimum Trace Width and Spacing (innner layer); error
+    @(145.1925 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 1.4193 mm
+    @(152.8064 mm, 106.9340 mm): Track [/Project Architecture/Connectors/+M] on L2 (GND), length 5.7404 mm
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (innner layer)' clearance 0.2000 mm; actual 0.1307 mm)
+    Rule: Minimum Trace Width and Spacing (innner layer); error
+    @(146.6118 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.0014 mm
+    @(152.8064 mm, 106.9340 mm): Track [/Project Architecture/Connectors/+M] on L2 (GND), length 5.7404 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1120 mm)
+    Rule: netclass 'Default'; error
+    @(148.8003 mm, 104.2964 mm): Pad 7 [unconnected-(U12-NC-Pad7)] of U12 on L1 (Sig, PWR)
+    @(148.8440 mm, 103.7844 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L2 (GND)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Polarity Switch/-M and /Project Architecture/Connectors/-M)
+    Local override; error
+    @(148.8003 mm, 103.7964 mm): Pad 8 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+    @(148.8440 mm, 103.7844 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L2 (GND)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor Polarity Switch/-M and /Project Architecture/Connectors/-M)
+    Local override; error
+    @(147.1128 mm, 102.6089 mm): Pad 10 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1040 mm)
+    Rule: netclass 'Default'; error
+    @(146.6128 mm, 102.6089 mm): Pad 11 [VDD] of U12 on L1 (Sig, PWR)
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.0960 mm)
+    Rule: netclass 'GND'; error
+    @(147.6128 mm, 102.6089 mm): Pad 9 [GND] of U12 on L1 (Sig, PWR)
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (innner layer)' clearance 0.2000 mm; actual 0.1833 mm)
+    Rule: Minimum Trace Width and Spacing (innner layer); error
+    @(165.5572 mm, 106.5784 mm): Track [/Project Architecture/Connectors/J1_1] on L2 (GND), length 4.7244 mm
+    @(168.8628 mm, 107.2867 mm): Via [GND] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/+M and /Project Architecture/Motor A/+M)
+    Local override; error
+    @(153.8732 mm, 107.1788 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J4
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+[hole_clearance]: Hole clearance violation (rule 'PTH to Track clearance' clearance 0.3300 mm; actual 0.0000 mm)
+    Rule: PTH to Track clearance; error
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+    @(153.8732 mm, 107.1788 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J4
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Motor A/+M and )
+    Local override; error
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+    @(157.2514 mm, 106.8928 mm): Polygon [<no net>] of U7 on L1 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets /Project Architecture/Connectors/-M and /Project Architecture/Motor A/-M)
+    Local override; error
+    @(153.8732 mm, 105.9288 mm): PTH pad 2 [/Project Architecture/Connectors/-M] of J4
+    @(156.1592 mm, 105.9180 mm): Track [/Project Architecture/Motor A/-M] on L2 (GND), length 2.3368 mm
+[hole_clearance]: Hole clearance violation (rule 'PTH to Track clearance' clearance 0.3300 mm; actual 0.0000 mm)
+    Rule: PTH to Track clearance; error
+    @(156.1592 mm, 105.9180 mm): Track [/Project Architecture/Motor A/-M] on L2 (GND), length 2.3368 mm
+    @(153.8732 mm, 105.9288 mm): PTH pad 2 [/Project Architecture/Connectors/-M] of J4
+[clearance]: Clearance violation (rule 'Minimum Trace Width and Spacing (outer layer)' clearance 0.2000 mm; actual 0.0895 mm)
+    Rule: Minimum Trace Width and Spacing (outer layer); error
+    @(155.4988 mm, 85.4456 mm): Track [/Project Architecture/Connectors/J1_5] on L1 (Sig, PWR), length 0.1524 mm
+    @(156.2439 mm, 85.2163 mm): Pad 1 [/Project Architecture/MotorB/+MB] of U10 on L1 (Sig, PWR)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2500 mm)
+    Rule: board setup constraints hole; error
+    @(146.1128 mm, 106.4839 mm): Pad 1 [+VDC] of U12 on L1 (Sig, PWR)
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(146.6128 mm, 106.4839 mm): Pad 2 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2500 mm)
+    Rule: board setup constraints hole; error
+    @(147.1128 mm, 106.4839 mm): Pad 3 [Net-(U12-VSS)] of U12 on L1 (Sig, PWR)
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(148.8003 mm, 103.7964 mm): Pad 8 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+    @(148.8440 mm, 103.7844 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L2 (GND)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.2460 mm)
+    Rule: board setup constraints hole; error
+    @(147.6128 mm, 102.6089 mm): Pad 9 [GND] of U12 on L1 (Sig, PWR)
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(147.1128 mm, 102.6089 mm): Pad 10 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0.2540 mm; actual 0.0000 mm)
+    Rule: board setup constraints hole; error
+    @(144.9253 mm, 105.2964 mm): Pad 16 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U12-EPAD-Pad17)_4)
+    Local override; error
+    @(145.8128 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U12-EPAD-Pad17)_4)
+    Local override; error
+    @(146.8628 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U12-EPAD-Pad17)_4)
+    Local override; error
+    @(147.9128 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U12-EPAD-Pad17)_4)
+    Local override; error
+    @(145.8128 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets GND and unconnected-(U12-EPAD-Pad17)_4)
+    Local override; error
+    @(146.8628 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_4 and GND)
+    Local override; error
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+    @(147.9128 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_4 and GND)
+    Local override; error
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+    @(147.9128 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_4 and GND)
+    Local override; error
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+    @(145.8128 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_4 and GND)
+    Local override; error
+    @(146.8628 mm, 104.5464 mm): Pad 17 [unconnected-(U12-EPAD-Pad17)_4] of U12 on L4 (Sig, PWR)
+    @(146.8628 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): PTH pad 1 [GND] of U1
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): Pad 1 [GND] of U1 on L1 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and unconnected-(J2-Pin_1-Pad1))
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(J2-Pin_1-Pad1)] of J2
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): PTH pad 1 [GND] of U1
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): Pad 1 [GND] of U1 on L4 (Sig, PWR)
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): PTH pad 1 [GND] of U1
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_2 and GND)
+    Local override; error
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(117.0938 mm, 108.8430 mm): PTH pad 1 [GND] of U1
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(145.2237 mm, 95.5151 mm): PTH pad 1 [GND] of U1
+    @(145.1864 mm, 95.5040 mm): PTH pad 1 [<no net>] of J3
+[shorting_items]: Items shorting two nets (nets unconnected-(U12-EPAD-Pad17)_1 and unconnected-(J2-Pin_2-Pad2))
+    Local override; error
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(U12-EPAD-Pad17)_1] of U1
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(J2-Pin_2-Pad2)] of J2
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(145.2237 mm, 90.4351 mm): PTH pad 2 [VDD] of U1
+    @(145.1864 mm, 90.4240 mm): PTH pad 2 [<no net>] of J3
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-PD_INT_3V-Pad3)_6 and unconnected-(J2-Pin_3-Pad3))
+    Local override; error
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(U1-PD_INT_3V-Pad3)_6] of U1
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(153.4004 mm, 94.2164 mm): Pad 7 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+    @(153.8480 mm, 93.8100 mm): Polygon [<no net>] of U9 on L1 (Sig, PWR)
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0000 mm)
+    Rule: netclass 'Default'; error
+    @(153.4004 mm, 99.1185 mm): Pad 14 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+    @(154.1528 mm, 99.5250 mm): Polygon [<no net>] of U9 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(141.8844 mm, 104.7417 mm): Pad 1 [VDD] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(141.8844 mm, 104.2416 mm): Pad 2 [unconnected-(U3-NC-Pad2)] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(141.8844 mm, 103.2413 mm): Pad 4 [VDD] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(139.0396 mm, 103.2413 mm): Pad 5 [unconnected-(U3-NC-Pad5)] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(139.0396 mm, 103.7415 mm): Pad 6 [/Project Architecture/Raspberrypi/PWM] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(139.0396 mm, 104.2416 mm): Pad 7 [Net-(U8-VSS)] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[clearance]: Clearance violation (rule 'pad to pad clearance (without hole, different nets)' clearance 0.2000 mm; actual 0.1397 mm)
+    Rule: pad to pad clearance (without hole, different nets); error
+    @(139.0396 mm, 104.7417 mm): Pad 8 [+VDC] of U3 on L1 (Sig, PWR)
+    @(140.4620 mm, 103.9915 mm): Pad 9 [GND] of U3 on L1 (Sig, PWR)
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    Local override; error
+    @(142.2400 mm, 113.3348 mm): Zone [/Project Architecture/ALB-MLB Toggle/-M] on L1 (Sig, PWR) and L2 (GND), priority 3
+    @(142.2400 mm, 113.3348 mm): Zone [/Project Architecture/ALB-MLB Toggle/-M] on L1 (Sig, PWR) and L3 (Sig, PWR), priority 3
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(168.0003 mm, 105.8135 mm): Footprint C21
+    @(166.6091 mm, 102.6258 mm): Footprint U8
+[hole_to_hole]: Drilled hole too close to other hole (rule 'pad to pad clearance (with hole, different nets)' min 0.4995 mm; actual 0.0000 mm)
+    Rule: pad to pad clearance (with hole, different nets); error
+    @(145.1864 mm, 95.5040 mm): PTH pad 1 [<no net>] of J3
+    @(145.2237 mm, 95.5151 mm): PTH pad 1 [GND] of U1
+[hole_to_hole]: Drilled hole too close to other hole (rule 'pad to pad clearance (with hole, different nets)' min 0.4995 mm; actual 0.0000 mm)
+    Rule: pad to pad clearance (with hole, different nets); error
+    @(145.2237 mm, 90.4351 mm): PTH pad 2 [VDD] of U1
+    @(145.1864 mm, 90.4240 mm): PTH pad 2 [<no net>] of J3
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(145.8128 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(146.8628 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(147.9128 mm, 105.5964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(145.8128 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(146.8628 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(147.9128 mm, 104.5464 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(145.8128 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(146.8628 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(147.9128 mm, 103.4964 mm): PTH pad 17 [GND] of U12
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(157.1314 mm, 84.9163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(157.1314 mm, 85.9663 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(157.1314 mm, 87.0163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(158.1814 mm, 84.9163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(158.1814 mm, 85.9663 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(158.1814 mm, 87.0163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(159.2314 mm, 84.9163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(159.2314 mm, 85.9663 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(159.2314 mm, 87.0163 mm): PTH pad 17 [unconnected-(U10-EPAD-Pad17)] of U10
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(165.5591 mm, 103.6758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(166.6091 mm, 103.6758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(167.6591 mm, 103.6758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(165.5591 mm, 102.6258 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(166.6091 mm, 102.6258 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(167.6591 mm, 102.6258 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(165.5591 mm, 101.5758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(166.6091 mm, 101.5758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[drill_out_of_range]: Hole size out of range (rule 'Pad Size' min hole 0.2500 mm; actual 0.2000 mm)
+    Rule: Pad Size; error
+    @(167.6591 mm, 101.5758 mm): PTH pad 17 [unconnected-(U8-EPAD-Pad17)] of U8
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(161.0868 mm, 107.8992 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(160.6296 mm, 107.3404 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.4612 mm, 107.3404 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.9692 mm, 106.8832 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.0040 mm, 106.8324 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.9692 mm, 107.7468 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(161.0868 mm, 106.8324 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; warning
+    @(159.0040 mm, 107.8484 mm): Blind/Buried Via [GND] on L1 (Sig, PWR) - L2 (GND)
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(154.9400 mm, 112.0648 mm): Track [/Project Architecture/Connectors/Stow] on L4 (Sig, PWR), length 0.8636 mm
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [+5V] on L1 (Sig, PWR) and L2 (GND), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(116.6368 mm, 113.6904 mm): Zone [/Project Architecture/Connectors/Stow] on L4 (Sig, PWR), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [/Project Architecture/Connectors/Stow] on L4 (Sig, PWR), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(83.9307 mm, 74.9419 mm): Zone [/Project Architecture/Connectors/SFF] on L3 (Sig, PWR), priority 3
+[isolated_copper]: Isolated copper fill
+    Local override; warning
+    @(116.6368 mm, 113.6904 mm): Zone [/Project Architecture/Connectors/SFF] on L3 (Sig, PWR), priority 3
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(J2-Pin_1-Pad1)] of J2
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(J2-Pin_2-Pad2)] of J2
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(U12-EPAD-Pad17)_1] of U1
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(U1-PD_INT_3V-Pad3)_6] of U1
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(129.8448 mm, 109.9820 mm): PTH pad 4 [/Project Architecture/Connectors/SDA] of U1
+    @(129.8448 mm, 109.9820 mm): PTH pad 4 [/Project Architecture/Connectors/SDA] of J2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(132.3848 mm, 109.9820 mm): PTH pad 5 [/Project Architecture/Connectors/SDC] of U1
+    @(132.3848 mm, 109.9820 mm): PTH pad 5 [/Project Architecture/Connectors/SDC] of J2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(134.9248 mm, 109.9820 mm): PTH pad 6 [+3.3V] of U1
+    @(134.9248 mm, 109.9820 mm): PTH pad 6 [+3.3V] of J2
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(137.4648 mm, 109.9820 mm): PTH pad 7 [GND] of J2
+    @(137.4648 mm, 109.9820 mm): PTH pad 7 [GND] of U1
+[holes_co_located]: Drilled holes co-located
+    Local override; warning
+    @(140.0048 mm, 109.9820 mm): PTH pad 8 [+5V] of J2
+    @(140.0048 mm, 109.9820 mm): PTH pad 8 [+5V] of U1
+[lib_footprint_mismatch]: Footprint 'rotopd' does not match copy in library 'Audio_Module'.
+    Local override; warning
+    @(132.5048 mm, 100.4820 mm): Footprint U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(141.3349 mm, 100.6706 mm): Reference field of C1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.9582 mm, 86.0940 mm): Segment of J8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(118.9582 mm, 86.0940 mm): Segment of J8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(149.6628 mm, 87.6820 mm): Segment of U1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.4548 mm, 109.9820 mm): Reference field of J2
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.4620 mm, 103.9915 mm): Reference field of U3
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.0744 mm, 85.0758 mm): Segment of J10 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(138.0744 mm, 85.0758 mm): Segment of J10 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(143.4096 mm, 114.7248 mm): Rectangle of SW1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(160.1089 mm, 107.3404 mm): Reference field of U7
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.6232 mm, 105.3038 mm): Segment of J4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(154.6232 mm, 105.3038 mm): Segment of J4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.4372 mm, 93.7370 mm): Segment of ENC2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.5972 mm, 105.9290 mm): Segment of ENC2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.6132 mm, 94.7530 mm): Segment of ENC2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.4372 mm, 94.7530 mm): Arc of ENC2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.2592 mm, 107.5856 mm): Reference field of J6
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.2542 mm, 111.5956 mm): Segment of J6 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(168.2542 mm, 111.5956 mm): Segment of J6 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.4372 mm, 77.5700 mm): Segment of ENC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(104.5972 mm, 89.7620 mm): Segment of ENC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(105.6132 mm, 78.5860 mm): Segment of ENC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(94.4372 mm, 88.7460 mm): Arc of ENC1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(95.7968 mm, 91.9634 mm): Segment of J11 on B.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(95.7968 mm, 91.9634 mm): Segment of J11 on B.Silkscreen
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(146.6128 mm, 106.4839 mm): Pad 2 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(144.9253 mm, 105.2964 mm): Pad 16 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(148.8440 mm, 103.7844 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L2 (GND)
+    @(148.8003 mm, 103.7964 mm): Pad 8 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(147.1168 mm, 102.6089 mm): Blind/Buried Via [/Project Architecture/Connectors/-M] on L1 (Sig, PWR) - L4 (Sig, PWR)
+    @(147.1128 mm, 102.6089 mm): Pad 10 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(153.4160 mm, 102.9716 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 3.9624 mm
+    @(153.4004 mm, 99.1185 mm): Pad 14 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(154.0256 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 0.2155 mm
+    @(153.8732 mm, 107.1788 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+    @(153.8732 mm, 107.1788 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J4
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(J2-Pin_1-Pad1)] of J2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(U12-EPAD-Pad17)_2] of U1
+    @(122.2248 mm, 109.9820 mm): PTH pad 1 [unconnected-(J2-Pin_1-Pad1)] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(145.2237 mm, 95.5151 mm): PTH pad 1 [GND] of U1
+    @(145.1864 mm, 95.5040 mm): PTH pad 1 [<no net>] of J3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(145.2237 mm, 95.5151 mm): PTH pad 1 [GND] of U1
+    @(145.1864 mm, 95.5040 mm): PTH pad 1 [<no net>] of J3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(U12-EPAD-Pad17)_1] of U1
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(J2-Pin_2-Pad2)] of J2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(U12-EPAD-Pad17)_1] of U1
+    @(124.7648 mm, 109.9820 mm): PTH pad 2 [unconnected-(J2-Pin_2-Pad2)] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(145.2237 mm, 90.4351 mm): PTH pad 2 [VDD] of U1
+    @(145.1864 mm, 90.4240 mm): PTH pad 2 [<no net>] of J3
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(145.2237 mm, 90.4351 mm): PTH pad 2 [VDD] of U1
+    @(145.1864 mm, 90.4240 mm): PTH pad 2 [<no net>] of J3
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(U1-PD_INT_3V-Pad3)_6] of U1
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(U1-PD_INT_3V-Pad3)_6] of U1
+    @(127.3048 mm, 109.9820 mm): PTH pad 3 [unconnected-(J2-Pin_3-Pad3)] of J2
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(154.1528 mm, 99.5250 mm): Polygon of U9 on F.Mask
+    @(153.4160 mm, 102.9716 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 3.9624 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(153.8480 mm, 93.8100 mm): Polygon [<no net>] of U9 on L1 (Sig, PWR)
+    @(153.4004 mm, 94.2164 mm): Pad 7 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(153.8480 mm, 93.8100 mm): Polygon of U9 on F.Mask
+    @(153.4004 mm, 94.2164 mm): Track [/Project Architecture/MotorB/+MB] on L1 (Sig, PWR), length 3.0147 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(154.1528 mm, 99.5250 mm): Polygon [<no net>] of U9 on L1 (Sig, PWR)
+    @(153.4004 mm, 99.1185 mm): Pad 14 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(154.1528 mm, 99.5250 mm): Polygon of U9 on F.Mask
+    @(153.4160 mm, 102.9716 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 3.9624 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(157.2514 mm, 106.8928 mm): Polygon of U7 on F.Mask
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(157.2514 mm, 106.8928 mm): Polygon [<no net>] of U7 on L1 (Sig, PWR)
+    @(157.6578 mm, 107.3404 mm): Pad 7 [/Project Architecture/Motor A/+M] of U7 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(162.9664 mm, 106.5880 mm): Polygon [<no net>] of U7 on L1 (Sig, PWR)
+    @(162.5600 mm, 107.3404 mm): Pad 14 [/Project Architecture/Motor A/+M] of U7 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(162.9664 mm, 106.5880 mm): Polygon of U7 on F.Mask
+    @(162.7298 mm, 107.3629 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 1.7381 mm
+
+** Found 31 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.2836 mm, 40.5384 mm): Zone [GND] on L2 (GND), priority 2
+    @(95.0468 mm, 96.3384 mm): PTH pad 8 [GND] of J11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.2052 mm, 100.1268 mm): Zone [GND] on L1 (Sig, PWR), priority 4
+    @(143.2052 mm, 100.1268 mm): Zone [GND] on L1 (Sig, PWR), priority 4
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.2836 mm, 40.5384 mm): Zone [GND] on L2 (GND), priority 2
+    @(145.2237 mm, 95.5151 mm): PTH pad 1 [GND] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.8792 mm, 110.8456 mm): PTH pad 3 [GND] of J6
+    @(157.4292 mm, 113.1824 mm): Zone [GND] on L2 (GND), priority 3
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(133.6994 mm, 84.3258 mm): PTH pad 1 [+3.3V] of J10
+    @(95.0468 mm, 87.5884 mm): PTH pad 1 [+3.3V] of J11
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.9248 mm, 109.9820 mm): PTH pad 6 [+3.3V] of J2
+    @(133.6994 mm, 84.3258 mm): PTH pad 1 [+3.3V] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.2836 mm, 40.5384 mm): Zone [+5V] on L4 (Sig, PWR), priority 0
+    @(128.4886 mm, 118.0356 mm): PTH pad 1 [+5V] of J9
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(160.8328 mm, 126.0856 mm): PTH pad 10 [+5V] of SW2
+    @(168.6324 mm, 124.8202 mm): PTH pad 1 [+5V] of J7
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(168.6324 mm, 124.8202 mm): PTH pad 1 [+5V] of J7
+    @(186.2836 mm, 40.5384 mm): Zone [+5V] on L4 (Sig, PWR), priority 0
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.9324 mm, 105.3084 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+    @(146.6128 mm, 106.4839 mm): Blind/Buried Via [/Project Architecture/Connectors/+M] on L1 (Sig, PWR) - L2 (GND)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.6192 mm, 124.0490 mm): PTH pad 1 [/Project Architecture/Connectors/+M] of J5
+    @(153.0696 mm, 106.8380 mm): Teardrop [/Project Architecture/Connectors/+M] on L2 (GND)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.6192 mm, 122.7990 mm): PTH pad 2 [/Project Architecture/Connectors/-M] of J5
+    @(152.8309 mm, 105.6640 mm): Teardrop [/Project Architecture/Connectors/-M] on L2 (GND)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(154.9155 mm, 104.9328 mm): Teardrop [/Project Architecture/Connectors/-MB] on L2 (GND)
+    @(153.6192 mm, 121.5490 mm): PTH pad 3 [/Project Architecture/Connectors/-MB] of J5
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(153.6192 mm, 120.2990 mm): PTH pad 4 [/Project Architecture/Connectors/+MB] of J5
+    @(153.8732 mm, 103.4288 mm): Track [/Project Architecture/Connectors/+MB] on L1 (Sig, PWR), length 0.6466 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(162.5306 mm, 120.8602 mm): PTH pad 1 [/Project Architecture/Connectors/SFF] of SW2
+    @(167.6292 mm, 110.8456 mm): Track [/Project Architecture/Connectors/SFF] on L4 (Sig, PWR), length 0.5696 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(172.4700 mm, 117.6307 mm): PTH pad 3 [/Project Architecture/Connectors/Stow] of SW2
+    @(164.7952 mm, 112.0648 mm): Track [/Project Architecture/Connectors/Stow] on L4 (Sig, PWR), length 4.9276 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.2836 mm, 40.5384 mm): Zone [VDD] on L1 (Sig, PWR), priority 2
+    @(145.2237 mm, 90.4351 mm): PTH pad 2 [VDD] of U1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(186.2836 mm, 40.5384 mm): Zone [VDD] on L1 (Sig, PWR), priority 2
+    @(186.2836 mm, 40.5384 mm): Zone [VDD] on L1 (Sig, PWR), priority 2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.7968 mm, 90.0884 mm): Track [/Project Architecture/Connectors/RE1.B] on L1 (Sig, PWR), length 1.2500 mm
+    @(136.1994 mm, 84.3258 mm): PTH pad 3 [/Project Architecture/Connectors/RE1.B] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(141.1994 mm, 84.3258 mm): PTH pad 7 [/Project Architecture/Connectors/RE2.C] of J10
+    @(95.0468 mm, 95.0884 mm): Track [/Project Architecture/Connectors/RE2.C] on L1 (Sig, PWR), length 0.7528 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.6994 mm, 84.3258 mm): PTH pad 5 [/Project Architecture/Connectors/RE2.A] of J10
+    @(95.0468 mm, 92.5884 mm): Track [/Project Architecture/Connectors/RE2.A] on L1 (Sig, PWR), length 1.1992 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(93.0148 mm, 91.3384 mm): Track [/Project Architecture/Connectors/RE1.C] on L1 (Sig, PWR), length 2.0320 mm
+    @(137.4494 mm, 84.3258 mm): PTH pad 4 [/Project Architecture/Connectors/RE1.C] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0468 mm, 93.8384 mm): Track [/Project Architecture/Connectors/RE2.B] on L1 (Sig, PWR), length 1.3316 mm
+    @(139.9494 mm, 84.3258 mm): PTH pad 6 [/Project Architecture/Connectors/RE2.B] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(95.0468 mm, 88.8384 mm): Track [/Project Architecture/Connectors/RE1.A] on L1 (Sig, PWR), length 1.0268 mm
+    @(134.9494 mm, 84.3258 mm): PTH pad 2 [/Project Architecture/Connectors/RE1.A] of J10
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.7591 mm, 105.1258 mm): Teardrop [Net-(U8-VSS)] on L1 (Sig, PWR)
+    @(138.6742 mm, 104.3643 mm): Teardrop [Net-(U8-VSS)] on L1 (Sig, PWR)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(157.6578 mm, 107.3404 mm): Track [/Project Architecture/Motor A/+M] on L1 (Sig, PWR), length 3.6322 mm
+    @(162.5600 mm, 107.3404 mm): Pad 14 [/Project Architecture/Motor A/+M] of U7 on L1 (Sig, PWR)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9526 mm, 98.1675 mm): Pad 13 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+    @(153.4004 mm, 99.1185 mm): Pad 14 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.9526 mm, 98.1675 mm): Pad 13 [/Project Architecture/MotorB/+MB] of U9 on L1 (Sig, PWR)
+    @(153.4004 mm, 94.2164 mm): Track [/Project Architecture/MotorB/+MB] on L1 (Sig, PWR), length 3.0147 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.1128 mm, 102.6089 mm): Pad 10 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+    @(148.8003 mm, 103.7964 mm): Pad 8 [/Project Architecture/Motor Polarity Switch/-M] of U12 on L1 (Sig, PWR)
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.9253 mm, 105.2964 mm): Pad 16 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+    @(144.9324 mm, 105.3084 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.9144 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(146.6128 mm, 106.4839 mm): Pad 2 [/Project Architecture/Motor Polarity Switch/+M] of U12 on L1 (Sig, PWR)
+    @(146.6118 mm, 106.4829 mm): Track [/Project Architecture/Motor Polarity Switch/+M] on L2 (GND), length 0.0014 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
