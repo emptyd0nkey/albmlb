@@ -12,7 +12,6 @@ on:
       - '*.md'
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   kibot_config: kibot_yaml/kibot_main.yaml
   # Used variant. We assume:
   # DRAFT: only schematic in progress, will only generate schematic PDF, netlist and BoM
@@ -63,6 +62,9 @@ jobs:
 
   generate_outputs:
     runs-on: ubuntu-latest
+    env:
+      # This bypasses the Node 20 end-of-life error
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     if: "!contains(github.event.head_commit.message, 'Merge pull request') || github.ref_type == 'tag'"
     steps:
       - name: Checkout Repository

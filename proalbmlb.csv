@@ -1,0 +1,16 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"U12,U10,U8";"WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias";3;"PTMUX6236RUMR";;;
+2;"C2,C29,C31,C20,C35,C32,C4,C22,C27,C26";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";10;"10μF";;;
+3;"C1,C34,C24,C21,C33,C3,C30,C19,C28,C25";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";10;"0.1μF";;;
+4;"J1";"DSUB-9_Pins_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset4.94mm";1;"DE9_Pins_MountingHoles";;;
+5;"J8";"Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical";1;"Conn_01x02_Pin";;;
+6;"U1";"rotopd";1;"~";;;
+7;"C23,C18";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"10uF_1206_35V";;;
+8;"REF**";"Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles";1;"Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles";;;
+9;"J2";"PinSocket_1x08_P2.54mm_Vertical";1;"Conn_01x08_Socket";;;
+10;"U9,U7";"REL0014A_PINA745AIRELR_TEX";2;"PINA745AIRELR";;;
+11;"U3";"WSON8_RQX_TEX-L";1;"TMUX7201RQXR";;;
+12;"J10";"Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical";1;"Conn_01x08_Socket";;;
+13;"J4,J6";"Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical";2;"Conn_01x04_Socket";;;
+14;"J3";"Samtec_HPM-02-05-x-S_Straight_1x02_Pitch5.08mm";1;"HPF-02-01-X-S";;;
+15;"U11";"SOIC8_DGK_TEX";1;"TMUX7219MDGKR";;;
