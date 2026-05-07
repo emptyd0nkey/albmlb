@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">791ee63</textvar>
+    <textvar name="GIT_HASH_PCB">bab92f0</textvar>
     <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
     <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
     <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
