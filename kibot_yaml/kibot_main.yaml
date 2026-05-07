@@ -563,7 +563,7 @@ definitions:
   COMPANY: General Atomics EMS
   DESIGNER: Marcus Reighter
 
-  LOGO: 'Logos/Logo.svg'
+  LOGO: 'Logos/Logo.png'
   GIT_URL: 'https://github.com/emptyd0nkey/albmlb'
 
   # Preflight ==================================================================
