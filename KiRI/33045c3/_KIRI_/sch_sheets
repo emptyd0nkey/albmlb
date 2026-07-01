@@ -1,0 +1,16 @@
+proalbmlb|proalbmlb.kicad_sch||proalbmlb|proalbmlb
+Block Diagram|Block Diagram.kicad_sch||Block Diagram|proalbmlb-Block Diagram
+Power - Sequencing|Power - Sequencing.kicad_sch||Power - Sequencing|proalbmlb-Power - Sequencing
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|proalbmlb-Project Architecture
+toggle|toggle.kicad_sch||ALB-MLB Toggle|proalbmlb-Project Architecture-ALB-MLB Toggle
+testhatness|testhatness.kicad_sch||AlbMlb test harnes|proalbmlb-Project Architecture-AlbMlb test harnes
+connectors|connectors.kicad_sch||Connectors|proalbmlb-Project Architecture-Connectors
+untitled|untitled.kicad_sch||Mode Selector|proalbmlb-Project Architecture-Mode Selector
+motorA|motorA.kicad_sch||Motor A|proalbmlb-Project Architecture-Motor A
+motorPolarity|motorPolarity.kicad_sch||Motor Polarity Switch|proalbmlb-Project Architecture-Motor Polarity Switch
+MotorB|MotorB.kicad_sch||MotorB|proalbmlb-Project Architecture-MotorB
+pi|pi.kicad_sch||Raspberrypi|proalbmlb-Project Architecture-Raspberrypi
+pd|pd.kicad_sch||RotoPD|proalbmlb-Project Architecture-RotoPD
+trigger|trigger.kicad_sch||Trigger|proalbmlb-Project Architecture-Trigger
+encoders|encoders.kicad_sch||encoders|proalbmlb-Project Architecture-encoders
+Revision History|Revision History.kicad_sch||Revision History|proalbmlb-Revision History

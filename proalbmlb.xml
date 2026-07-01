@@ -60,7 +60,7 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				70.968 × 66.091 mm
+	BOARD SIZE				70.968 × 76.291 mm
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">bab92f0</textvar>
+    <textvar name="GIT_HASH_PCB">2fff7d0</textvar>
     <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
     <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
     <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">06-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-06</textvar>
+    <textvar name="RELEASE_DATE">01-Jul-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-07-01</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
