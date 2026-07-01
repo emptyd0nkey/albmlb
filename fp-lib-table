@@ -8,4 +8,5 @@
   (lib (name "M2025LL2W13")(type "KiCad")(uri "C:/dev/work/misc/albmlb/alb-mlb/NKKSWITCHES_M2025LL2W13")(options "")(descr "")(disabled))
   (lib (name "pictures")(type "KiCad")(uri "${KIPRJMOD}/lib/SC1176")(options "")(descr ""))
   (lib (name "10mfcap")(type "KiCad")(uri "${KIPRJMOD}/lib/CL32B106KMVNNWE/KiCADv6")(options "")(descr ""))
+  (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/Logos")(options "")(descr ""))
 )
