@@ -1,126 +1,136 @@
 (version 1)
-#PCBWay Custom DRC for Kicad 8
 
-# 6 layers, 2 oz outer and 1 oz inner. Optimized for lowest cost.
+# PCBWay Custom DRC for KiCad 8
+# Stackup: 6 layers (2 oz outer, 1 oz inner)
 
-# ----------------------------------- Minimum trace width and spacing --------------------
+# ----------------------------------- Trace Width & Spacing ----------------------------------
 
-# 2oz copper
-(rule "Minimum Trace Width and Spacing (outer layer)"
-(constraint track_width (min 0.2mm))
-(constraint clearance (min 0.2mm))
-(layer outer)
-(condition "A.Type == 'track'"))
+(rule "Minimum Trace Width and Spacing (Outer Layers)"
+   (layer outer)
+   (constraint track_width (min 0.2mm))
+   (constraint clearance (min 0.25mm))
+   (condition "A.type == 'track'"))
 
-(rule "Minimum Trace Width and Spacing (innner layer)"
-(constraint track_width (min 0.2mm))
-(constraint clearance (min 0.2mm))
-(layer inner)
-(condition "A.Type == 'track'"))
+(rule "Minimum Trace Width and Spacing (Inner Layers)"
+   (layer inner)
+   (constraint track_width (min 0.2mm))
+   (constraint clearance (min 0.2mm))
+   (condition "A.type == 'track'"))
 
-# ------------------------------------------------------------------------------------------------------
+(rule "Relaxed Clearance Outer Layers"
+   (layer outer)
+   (constraint clearance (min 0.2mm))
+   (condition "A.type == 'track' || A.type == 'zone'"))
 
-# Drill/hole size - listed here to maintain order of rule application. Must not override rule set in Via hole/diameter size below.
-(rule "drill hole size (mechanical)"
-(constraint hole_size (min 0.15mm) (max 6.3mm)))
+# ----------------------------------- Vias & Drill Sizes -------------------------------------
 
-# ----------------------------------- Via hole/diameter size -------------------------------------------
+(rule "Mechanical Drill Size Limits"
+   (constraint hole_size (min 0.15mm) (max 6.3mm)))
 
 (rule "Minimum Via Diameter and Hole Size"
-(constraint hole_size (min 0.25mm))
-(constraint via_diameter (min 0.55mm))
-(condition "A.Type == 'via'"))
+   (constraint hole_size (min 0.25mm))
+   (constraint via_diameter (min 0.55mm))
+   (condition "A.type == 'via'"))
 
+(rule "PTH Hole Size Limits"
+   (constraint hole_size (min 0.25mm) (max 6.35mm))
+   (condition "A.type == 'pad' && A.isPlated()"))
 
-# ----------------------------------- Drill/hole size --------------------------------------------------
+(rule "Minimum NPTH Hole Size"
+   (constraint hole_size (min 0.5mm))
+   (condition "A.type == 'pad' && !A.isPlated()"))
 
-(rule "PTH Hole Size"
-(constraint hole_size (min 0.25mm) (max 6.35mm))
-(condition "A.Type != 'Via' && A.isPlated()"))
+(rule "Plated Pad Annular Width"
+   (constraint hole_size (min 0.25mm))
+   (constraint annular_width (min 0.15mm))
+   (condition "A.type == 'pad' && A.isPlated()"))
 
-(rule "Minimum Non-plated Hole Size"
-(constraint hole_size (min 0.5mm))
-(condition "A.Type == 'pad' && !A.isPlated()"))
-
-(rule "Pad Size"
-(constraint hole_size (min 0.25mm))
-(constraint annular_width (min 0.15mm))
-(condition "A.Type == 'Pad' && A.isPlated()"))
+#(rule "Enforce Safe Annular Ring"
+#   (constraint annular_width (min 0.2mm))
+#   (condition "A.type == 'via' || A.type == 'pad'"))
 
 (rule "Minimum Castellated Hole Size"
-(constraint hole_size (min 0.6mm))
-(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+   (constraint hole_size (min 0.6mm))
+   (condition "A.type == 'pad' && A.Fabrication_Property == 'castellated'"))
 
-(rule "Min. Plated Slot Width"
-(constraint hole_size (min 0.5mm))
-(condition "(A.Hole_Size_X != A.Hole_Size_Y) && A.isPlated()"))
+# Slotted Hole Checks (KiCad 8 valid expression)
+(rule "Min Plated Slot Width"
+   (constraint hole_size (min 0.5mm))
+   (condition "A.type == 'pad' && A.hole_size_x != A.hole_size_y && A.isPlated()"))
 
-(rule "Min. Non-Plated Slot Width"
-(constraint hole_size (min 0.8mm))
-(condition "(A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()"))
+(rule "Min Non-Plated Slot Width"
+   (constraint hole_size (min 0.8mm))
+   (condition "A.type == 'pad' && A.hole_size_x != A.hole_size_y && !A.isPlated()"))
 
+# ----------------------------------- Clearances & Spacing -----------------------------------
 
-# ----------------------------------- Minimum clearance ------------------------------------------------
+(rule "Minimum Drill Spacing"
+   (constraint hole_to_hole (min 0.3mm)))
 
-(rule "hole to hole clearance (different nets)"
-(constraint hole_to_hole (min 0.5mm))
-(condition "A.Net != B.Net"))
+(rule "Hole to Hole Clearance (Different Nets)"
+   (constraint hole_to_hole (min 0.5mm))
+   (condition "A.net != B.net"))
 
-(rule "via to track clearance"
-(constraint hole_clearance (min 0.254mm))
-(condition "A.Type == 'via' && B.Type == 'track'"))
+(rule "Copper to Hole Edge Clearance"
+   (constraint hole_clearance (min 0.3mm))
+   (condition "A.type == 'track' || A.type == 'zone'"))
 
-(rule "via to via clearance (same nets)"
-(constraint hole_to_hole (min 0.254mm))
-(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
+(rule "Via to Track Clearance"
+   (constraint hole_clearance (min 0.254mm))
+   (condition "A.type == 'via' && B.type == 'track'"))
 
-(rule "pad to pad clearance (with hole, different nets)"
-(constraint hole_to_hole (min 0.5mm))
-(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+(rule "Via to Via Clearance (Same Net)"
+   (constraint hole_to_hole (min 0.254mm))
+   (condition "A.type == 'via' && B.type == 'via' && A.net == B.net"))
 
-(rule "pad to pad clearance (without hole, different nets)"
-(constraint clearance (min 0.2mm))
-(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+(rule "Pad to Pad Clearance (With Hole, Different Nets)"
+   (constraint hole_to_hole (min 0.5mm))
+   (condition "A.type == 'pad' && B.type == 'pad' && A.net != B.net"))
 
-(rule "NPTH to Track clearance"
-(constraint hole_clearance (min 0.254mm))
-(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
+(rule "Pad to Pad Clearance (SMD Surface, Different Nets)"
+   (constraint clearance (min 0.2mm))
+   (condition "A.type == 'pad' && B.type == 'pad' && A.net != B.net"))
 
-(rule "NPTH with copper around"
-(constraint hole_clearance (min 0.20mm))
-(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
+(rule "NPTH to Track Clearance"
+   (constraint hole_clearance (min 0.254mm))
+   (condition "A.type == 'pad' && !A.isPlated() && B.type == 'track'"))
 
-(rule "PTH to Track clearance"
-(constraint hole_clearance (min 0.33mm))
-(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+(rule "NPTH to General Copper Clearance"
+   (constraint hole_clearance (min 0.20mm))
+   (condition "A.type == 'pad' && !A.isPlated() && B.type != 'track'"))
 
-(rule "Pad to Track clearance"
-(constraint clearance (min 0.2mm))
-(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+(rule "PTH to Track Clearance"
+   (constraint hole_clearance (min 0.33mm))
+   (condition "A.type == 'pad' && A.isPlated() && B.type == 'track'"))
 
-# ----------------------------------- Board Outlines (PICK ONE) -------------------------------------
-#Default Routed Edge Clearance
-(rule "Trace to Outline"
-(constraint edge_clearance (min 0.3mm))
-(condition "A.Type == 'track'"))
+(rule "Pad to Track Clearance"
+   (constraint clearance (min 0.2mm))
+   (condition "A.type == 'pad' && B.type == 'track'"))
 
-# ----------------------------------- Silkscreen ----------------------------------------------------
-(rule "Minimum Text"
-(constraint text_thickness (min 0.15mm))
-(constraint text_height (min 0.8mm))
-(layer "?.Silkscreen"))
+# ----------------------------------- Edge Clearances ----------------------------------------
 
-(rule "Pad to Silkscreen"
-(constraint silk_clearance (min 0.15mm))
-(layer outer)
-(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+(rule "Trace to Board Edge Clearance"
+   (constraint edge_clearance (min 0.3mm))
+   (condition "A.type == 'track'"))
 
-# ----------------------------------- Test Points Courtyard -----------------------------------------
+# ----------------------------------- Silkscreen ---------------------------------------------
+
+(rule "Silkscreen Minimum Text Size"
+   (layer "?.Silkscreen")
+   (constraint text_thickness (min 0.15mm))
+   (constraint text_height (min 0.8mm)))
+
+(rule "Pad to Silkscreen Clearance"
+   (layer outer)
+   (constraint silk_clearance (min 0.15mm))
+   (condition "A.type == 'pad' && (B.type == 'text' || B.type == 'graphic')"))
+
+# ----------------------------------- Courtyard Exclusions -----------------------------------
+
 (rule "Test Point Courtyard Exclusion"
-(constraint courtyard_clearance (min -1mm))
-(condition "A.Reference =='TP*'"))
+   (constraint courtyard_clearance (min -1mm))
+   (condition "A.Reference == 'TP*'"))
 
-# ----------------------------------- Fiducials Courtyard -------------------------------------------
-(rule "Test Point Courtyard Exclusion"
-(constraint courtyard_clearance (min -1mm))
-(condition "A.Reference =='FM*'"))
+(rule "Fiducial Courtyard Exclusion"
+   (constraint courtyard_clearance (min -1mm))
+   (condition "A.Reference == 'FM*'"))

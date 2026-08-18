@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -124,35 +124,11 @@
           ""
         ],
         [
-          "shorting_items|121374800|109132000|310451d7-8ce2-4ed6-a8cd-109a3eaaf58b|2c7c6097-fd9a-4a88-bb43-a023506550a1",
-          ""
-        ],
-        [
-          "shorting_items|124764800|109982000|d888cecd-2de8-4d00-8cb8-74d64a3f3470|9bfaeaaa-484b-4717-a9a6-9bd8565ea556",
-          ""
-        ],
-        [
-          "shorting_items|127304800|109982000|8c7511b8-8ef1-4081-9f0e-55a61bfef8a7|d818708e-ba2a-4dc2-88a4-54b3601329d6",
-          ""
-        ],
-        [
-          "shorting_items|146862800|104546400|07be26f3-3ad3-4b89-aa17-92b00f8b0b21|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
-          ""
-        ],
-        [
           "shorting_items|146862800|104546400|12133c94-5962-4ab2-a50e-041bc42b2276|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
           ""
         ],
         [
-          "shorting_items|146862800|104546400|167b9ccd-a49c-42ff-974e-f5400117ee70|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
-          ""
-        ],
-        [
           "shorting_items|146862800|104546400|3e890c8b-c6f0-43ed-a66b-38f3f4cb8eac|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
-          ""
-        ],
-        [
-          "shorting_items|146862800|104546400|567ee4e2-33c0-4073-944d-48d52d0aea89|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
           ""
         ],
         [
@@ -164,15 +140,7 @@
           ""
         ],
         [
-          "shorting_items|146862800|104546400|8608ae29-03da-42c0-875c-e68b8d0d58d1|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
-          ""
-        ],
-        [
           "shorting_items|146862800|104546400|cf3a1dcd-0cfc-423c-9396-4d4605a09a01|46ba77b9-d796-4dc3-9f85-1986cfbb9c9d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|121374800|109132000|310451d7-8ce2-4ed6-a8cd-109a3eaaf58b|2c7c6097-fd9a-4a88-bb43-a023506550a1",
           ""
         ],
         [
@@ -180,19 +148,7 @@
           ""
         ],
         [
-          "unconnected_items|157265094|107188000|F.Cu|4|3092ada8-f4aa-46fa-a879-9eb66bda8dbd|2cfc94fd-510c-451d-9d43-2daef8c81e93",
-          ""
-        ],
-        [
-          "unconnected_items|161788201|89095072|F.Cu|4|0b3e24d5-f34e-4ba1-8c7d-8aaf03514947|64acf7ac-6bd2-4652-bc5c-9d58721e0d8c",
-          ""
-        ],
-        [
           "unconnected_items|166859100|104563299|F.Cu|4|82fb2f3c-7506-4fd0-b69c-ea42ea7b2728|76a3a9f7-b73a-4e2a-a269-34d927296a66",
-          ""
-        ],
-        [
-          "zones_intersect|155942321|106542959|3092ada8-f4aa-46fa-a879-9eb66bda8dbd|bab7e258-2d58-40b3-bb94-20738ba63c6f",
           ""
         ]
       ],
@@ -261,22 +217,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.2,
+        "min_clearance": 0.5,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.254,
-        "min_hole_to_hole": 0.254,
+        "min_hole_clearance": 0.3,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.25,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.55,
+        "min_via_diameter": 0.6,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -1279,7 +1235,7 @@
     "BOARD_NAME": "alb_mlb test",
     "COMPANY": "General Atomics EMS",
     "DESIGNER": "Marcus Reighter",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY GENERAL ATOMICS EMS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t70.968 \u00d7 76.291 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\t2.750 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY GENERAL ATOMICS EMS.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t70.968 × 76.291 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.200 mm\n\tMIN. HOLE (NPTH)\t\t2.750 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "2fff7d0",
     "GIT_HASH_SCH": "d2a9a5a",
     "GIT_URL": "https://github.com/emptyd0nkey/albmlb",
