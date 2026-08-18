@@ -26,10 +26,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J3","HPF-02-01-X-S","Samtec_HPM-02-05-x-S_Straight_1x02_Pitch5.08mm",81.1864,10.4960,180.0000,top
 "J4","Conn_01x04_Socket","Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical",89.8732,-1.1788,90.0000,top
 "J6","Conn_01x04_Socket","Molex_PicoBlade_53047-0410_1x04_P1.25mm_Vertical",102.3792,-4.8456,0.0000,top
-"J8","Conn_01x02_Pin","Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical",54.3332,20.6560,0.0000,top
-"J10","Conn_01x08_Socket","Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical",69.6994,21.6742,0.0000,top
-"REF**","Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles","Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles",60.1552,31.5272,90.0000,top
-"U1","~","rotopd",68.5048,5.5180,90.0000,top
+"Raspberry Pi","Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles","Raspberry_Pi_Zero_Socketed_THT_FaceDown_MountingHoles",60.1552,31.5272,90.0000,top
 "U3","TMUX7201RQXR","WSON8_RQX_TEX-L",76.4620,2.0085,180.0000,top
 "U7","PINA745AIRELR","REL0014A_PINA745AIRELR_TEX",96.1089,-1.3404,-90.0000,top
 "U8","PTMUX6236RUMR","WQFN16_RUM_TEX",102.6091,3.3742,90.0000,top
@@ -37,6 +34,6 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "U10","PTMUX6236RUMR","WQFN16_RUM_TEX",94.1814,20.0337,0.0000,top
 "U11","TMUX7219MDGKR","SOIC8_DGK_TEX",100.0044,17.2299,0.0000,top
 "U12","PTMUX6236RUMR","WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias",82.8628,1.4536,90.0000,top
-"fid.A","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",113.4396,59.0628,0.0000,top
-"fid.B","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",52.5000,59.0000,0.0000,top
-"fid.C","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",52.5000,-7.2000,0.0000,top
+"fid.A","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",106.5000,-10.6000,0.0000,top
+"fid.B","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",57.0000,30.2000,0.0000,top
+"fid.C","Fiducial_1mm_Mask2mm","Fiducial_1mm_Mask2mm",59.5000,-10.6000,0.0000,top

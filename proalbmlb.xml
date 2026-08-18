@@ -39,10 +39,10 @@
 4)	SURFACE FINISH: IMMERSION GOLD
 
 5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL 
-	BE LPI, COLOR BLACK.
+	BE LPI, COLOR GREEN.
 
 6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER 
-	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.
+	STACKUP USING WHITE NON-CONDUCTIVE EPOXY INK.
 
 7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS 
 	SOLDERMASK OPENED IN GERBER.
@@ -60,21 +60,21 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				70.968 × 76.291 mm
+	BOARD SIZE				70.968 × 50.791 mm
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
 	MIN. HOLE (PTH)			0.200 mm
-	MIN. HOLE (NPTH)		2.750 mm
+	MIN. HOLE (NPTH)		3.200 mm
 	ANNULAR RING			0.150 mm
-	COPPER TO HOLE		0.254 mm
+	COPPER TO HOLE		0.300 mm
 	COPPER TO EDGE		0.250 mm
-	HOLE TO HOLE			0.254 mm
+	HOLE TO HOLE			0.300 mm
 
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">2fff7d0</textvar>
+    <textvar name="GIT_HASH_PCB">e408cb0</textvar>
     <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
     <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
     <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">01-Jul-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-07-01</textvar>
+    <textvar name="RELEASE_DATE">18-Aug-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-08-18</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>

@@ -12,4 +12,3 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 11,1,U2,SC1176,,MODULE_SC1176,,Raspberry Pi,,
 12,1,U3,TMUX7201RQXR,https://www.ti.com/lit/gpn/tmux7201,WSON8_RQX_TEX-L,,,,
 13,1,U11,TMUX7219MDGKR,https://www.ti.com/document-viewer/tmux7219m/datasheet,SOIC8_DGK_TEX,,,,
-14,1,U1,~,,rotopd,,,,
