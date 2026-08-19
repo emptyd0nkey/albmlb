@@ -557,8 +557,8 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: ALB/MLB test
-  BOARD_NAME: alb_mlb test
+  PROJECT_NAME: LightBandit
+  BOARD_NAME: LightBandit
 
   COMPANY: General Atomics EMS
   DESIGNER: Marcus Reighter
