@@ -2,7 +2,7 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">alb_mlb test</h1>
+<h1 align="center">LightBandit</h1>
 
 <p align="center" width="100%">
   <a href="https://github.com/emptyd0nkey/albmlb/actions/workflows/ci.yaml">

@@ -17,7 +17,7 @@
 
 5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">alb_mlb test</textvar>
+    <textvar name="BOARD_NAME">LightBandit</textvar>
     <textvar name="COMPANY">General Atomics EMS</textvar>
     <textvar name="DESIGNER">Marcus Reighter</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
@@ -74,17 +74,17 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">e408cb0</textvar>
+    <textvar name="GIT_HASH_PCB">1b1e0f8</textvar>
     <textvar name="GIT_HASH_SCH">d2a9a5a</textvar>
     <textvar name="GIT_URL">https://github.com/emptyd0nkey/albmlb</textvar>
-    <textvar name="PROJECT_NAME">ALB/MLB test</textvar>
+    <textvar name="PROJECT_NAME">LightBandit</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">18-Aug-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-08-18</textvar>
+    <textvar name="RELEASE_DATE">19-Aug-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-08-19</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
